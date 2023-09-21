@@ -1401,7 +1401,7 @@ table.alt tbody tr:first-child td {
     justify-content: space-between;
     background-color: #1f1815;
     background-attachment: scroll, scroll;
-    background-image: url(images/overlay.png), url(https://github.com/EricLee0224/EricLee0224.github.io/images/newbg.jpg);
+    background-image: url(images/overlay.png), url(../../images/newbg.jpg);
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, 150%;
