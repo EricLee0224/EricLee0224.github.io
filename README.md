@@ -2,4 +2,4 @@
 
 
 
-Speacial thanks to [@BJHYZJ](https://github.com/BJHYZJ)https://github.com/BJHYZJ .
+Speacial thanks to [@BJHYZJ](https://github.com/BJHYZJ) .
