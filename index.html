@@ -1,666 +1,1151 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Weize Li - Homepage</title>
-  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-  <link rel="shortcut icon" type="image/x-icon" href="images/icon.png">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <!-- Bulma Version 0.7.5-->
-  <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
-  <link href='css/style.css?_t=20200916' rel='stylesheet' type='text/css'>
-  <script defer src="font-awesome/js/brands.min.js"></script>
-  <script defer src="font-awesome/js/regular.min.js"></script>
-  <script defer src="font-awesome/js/fontawesome.min.js"></script>
-    <style>
-      .red {
-        color: rgb(238, 76, 44);
-        font-style: normal;
-      }
-      .blue {
-        color: rgb(238, 76, 44);
-        font-style: normal;
-      }
-       
-      #intro {
-       margin-top: 0em !important;
-      }
-      
-      .content h3 {
-       margin-bottom: 1em!important;
-       margin-top: 2em!important;
-      }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+        crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+<!--    <link rel="icon" href="./favicon.ico" type="image/x-icon" />-->
+<!--    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />-->
+<!--    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />-->
+    <link rel="shortcut icon" href="favicon.ico" />
+<!--    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />-->
+<!--    <meta name="apple-mobile-web-app-title" content="MyWebSite" />-->
+<!--    <link rel="manifest" href="/site.webmanifest" />-->
 
-      .content figure {
-       width: 90%;
-       display: flex;
-       align-items: center;
-       overflow: hidden;
-       margin-left: auto!important;
-       margin-right: auto!important;
-      }
-      
-      .columns:not(:last-child) {
-       margin-bottom: 1.75rem!important;
-      }
-
-      #sidebar {
-        width: 75%;
-      }
-
-      @media screen and (min-width: 769px), print {
-        .column.is-2_5, .column.is-2-tablet {
-          flex: none;
-          width: 20%;
-        }
-      }
-</style>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7c14ef5969.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Weize Li</title>
+    <!--    description-->
+    <meta name="Description"
+          content="My homepage.">
+    <!--    keywords-->
+    <meta name="Keywords"
+          content="Robotics, 3D Vision, Researcher, CV">
 </head>
-
 <body>
-  <section class="section">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-2_5">
-          <div class="sticky">
-            <figure class="image" style="width: 11.6rem; margin-top: 6px;">
-              <img src="images/misc/profile.jpg">
-            </figure>
-            <div class="content">
-              <h2 style="margin-top: 1em">Weize Li</h2>
-              <p>
-                <b>Researcher</b><br/> 
-                @AIRIC, Tsinghua University<br/>
-                Beijing, China<br/> 
-		            liweize0224@gmail.com
-              </p>
-            </div>
-            <!-- social networks -->
-            <div class="social">
-              <a href="mailto:liweize0224@gmail.com" target="_blank">
-                <span class="fa-regular fa-envelope fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; "></span>
-              </a>
-              <a href="https://github.com/EricLee0224/" target="_blank">
-                <span class="fab fa-github fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 15px"></span>
-              </a>
-              <a href="https://scholar.google.com/citations?user=CyPiUucAAAAJ&hl=en-US" target="_blank">
-                <span class="fa-brands fa-google fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 15px"></span>
-              </a>
-              <a href="https://twitter.com/WeizeLi24" target="_blank">
-                <span class="fa-brands fa-twitter fa-2x" style="display:inline; text-decoration: none; color: #4a4a4a; margin-left: 15px"></span>
-              </a>
-            </div>
-
-            <div id="sidebar" class="menu sticky is-hidden-mobile">
-              <p class="menu-label"><b>Quick Links</b></p>
-              <ul class="menu-list">  
-                <li><a href="#Intro">About Me</a></li>
-                <li><a href="#Research">Research</a></li>
-                <li><a href="#Publications">Publication</a></li>
-                <li><a href="#Projects">Project</a></li>
-                <!-- <li><a href="#Experiences">Experiences</a></li> -->
-		            <!-- <li><a href="#Patents">Patent</a></li> -->
-                <li><a href="#Awards">Award</a></li>
-                <li><a href="#Service">Service</a></li>
-                <li><a href="#Misc">Misc.</a></li>
-              </ul>
-            </div>
-          </div>
-
+    <div class="navbar navbar-expand-lg bg-body-tertiary p-0">
+<!--        <a class="navbar-brand mx-3 p-2" href="#" style="font-size: 1.3rem; font-family: 'Quicksand'; margin-bottom: 3px">-->
+<!--            <div>-->
+<!--                <img src="images/logo/cilix_logo_nc.png" alt="cilix-logo" class="logo" style="margin-top: 5px; height: 24px !important;"/>-->
+<!--            </div>-->
+<!--        </a>-->
+        <a class="navbar-brand mx-3 p-2" href="index.html#" style="font-size: 1.3rem; font-family: 'Quicksand'; margin-bottom: 3px">
+            &nbsp;
+        </a>
+        <div>
+            <button class="navbar-toggler" type="button" onclick="toggleMenu()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-        <div class="column right-panel">
-          <div class="content">
-
-
-            <!--About Me-->
-            <h2 id="Intro">About Me</h2>
-            <p>
-              I am currently a Research Assistant (RA) at <a href="https://air.tsinghua.edu.cn/en/"><b>Tsinghua University</b></a> and Research Engineer Intern at <a href="https://www.techinasia.com/news/chinese-embodied-ai-startup-tars-raises-120m-in-angel-funding"><b>TARS Robotics</b></a>, co-advised by <a href="https://wenchaoding.github.io/personal/index.html"><b>Prof. Wenchao Ding</b></a> and <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm"><b>Prof. Yilun Chen</b></a>.
-              I am fortunate to work closely with <a href="https://www.xxlong.site/">Prof. Xiaoxiao Long</a> from <a href="https://www.nju.edu.cn/en/">NJU</a>, <a href="https://ece.hkust.edu.hk/pingtan">Prof. Ping Tan</a> from <a href="https://hkust.edu.hk/">HKUST</a> and <a href="https://sites.google.com/view/fromandto">Prof. Hao Zhao</a> from <a href="https://www.discover-lab.com/">DISCOVER Lab</a>. 
-              Previously, I was a visiting student at <a href="http://english.ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences</a> in my senior year.
-<!--               And I got my B.Eng. in Mechatronics Engineering from Beijing University of Civil Engineering and Architecture. -->
-              <br><br>
-              I am an active member of <a href="https://anysyn3d.github.io/">AnySyn3D</a>, a non-profit research interest group comprising individuals with a strong interest in exploring research problems and cutting-edge technologies in any topics of 3D.
-              <br><br>
-            </p>
-
-            <!--News-->
-            <!-- <h2 id="News">News</h2>
-            <ul>
-              <li>[2023-09] Start my journey in <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University</a>.
-              <li>[2023-08] One paper accepted to <a href="https://asia.siggraph.org/2023/" target="_blank" rel="noopener">SIGGRAPH Asia 2023</a>.
-              <li>[2023-06] Graduated from <a href="https://www.tongji.edu.cn/" target="_blank" rel="noopener">Tongji University</a>.
-              <li>[2022-11] Join Shanghai Artificial Intelligence Lab(<a href="https://www.shlab.org.cn/" target="_blank" rel="noopener">PJLAB</a>).
-            </ul> -->
-		  
-            <!--Research-->
-            <h2 id="Research">Research</h2>
-            <p>
-	          <strong>My long-term research goal is to build Embodied Intelligence with dexterous manipulation and flexible mobility.</strong>
-	          It should be able to perceive and imagine the world, and derive insights through understanding to guide its actions. 
-	          Specifically, the key lies in leveraging 3D visual information along with other modalities (such as pixel, language and tactile...) to learn how to perceive, reason, and act in both virtual and physical environments.
-            So I am currently focusing on <strong>{Robotics, 3D Vision, Graphics} for Embodied AI</strong>:
-            </p>
-            <ul>
-	      <li>🤖<strong> Robotics</strong>
-                <br>Manipulation; Foundation Models for Robotics; Autonomous Driving.
-              <li>👀<strong> 3D Vision</strong>
-                <br>3D Scene Understanding (e.g.visual grounding, dense captioning, VQA); Robot Perception; <S>Anomaly Detection</S>.
-              <li>🪅<strong> Graphics</strong>
-                <br>3D Reconstruction and Editing for Simulation; Digital Twins; Video Generation.
-            </ul>
-
-            <!--Publications-->
-
-            <h2 id="Publications" style="display: inline;">Publications</h2>
-            <span style="display: inline; color:#999999; text-decoration:none; font-size: 15px; margin-left: 1rem;">
-              (†: corresponding author; *: equal contribution)
-            </span>
-            <p></p>
-
-         <!--List of publications-->
-<!--             <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/publications/">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>Probing Visual Foundation Models for Robotic 3D Manipulation</b><br>
-                    		<a>Meng Shen<sup>*</sup><a>,
-			        <strong>Weize Li<sup>*</sup></strong>,
-			        <a>Yuhang Zheng</a>,
-			        <a>Xiangyu Chen</a>,
-		                <a>Wei Sun</a>,
-                                <a>Pengfei Li</a>,
-                                <a>Wenchao Ding</a>,
-			        <a>Yilun Chen</a>.</em><br>
-                    <i>Under Review</i><br>
-                    <a href="https://arxiv.org/abs/" target="_blank">[Coming Soon]</a>
-                  </p>
-                </div>
-              </div>
-            </article> -->
-		  
-            <!--List of publications-->
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/publications/wbcd_final.svg">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>Taming VR Teleoperation and Learning from Demonstration for Multi-Task Bimanual Table Service Manipulation</b><br>
-                    <strong>Weize Li</strong>,
-		    		<a href="https://absrat.com/">Zhengxiao Han</a>,
-					<a href="https://davidlxu.github.io/">Lixin Xu</a>,
-					<a href="https://changerc77.github.io/">Xiangyu Chen</a>,
-					<a href="https://harrisonbounds.github.io/">Harrison Bounds</a>,
-					<a>Chenrui Zhang</a>,
-					<a href="https://scholar.google.com/citations?user=RYKMFp4AAAAJ&hl=en">Yifan Xu</a>.</em><br>
-                    <i>Technical Report 2025</i><br>
-                    <a href="http://arxiv.org/abs/2508.14542" target="_blank">[arXiv]</a><br>
-					<strong>Media Coverage (CN): <a href="https://mp.weixin.qq.com/s/SqlE_TpMyzCj3Us1R3L4NA">甲子光年</a> | <a href="https://mp.weixin.qq.com/s/GwJiwAKvZb0K-uHy2_rzBQ">36氪</a> | <a href="https://mp.weixin.qq.com/s/H26K-brCRXqNVZ-BScoC-g">机器之心</a> | <a href="https://mp.weixin.qq.com/s/Y-9wZm2Rwr_gLEelUgV39A">量子位</a></strong>
-                    <!-- <a href="https://github.com/EricLee0224/awesome-nerf-editing" target="_blank">[Website]</a><br> -->
-                  </p>
-                </div>
-              </div>
-            </article>
-			  
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/publications/robogem_teaser.svg">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>RoboGEM: Learning Language-guided Robotic Manipulation via Generalizable and Efficient Feature Distillation</b><br>
-                    <a href="https://www.linkedin.com/in/chunzheng-wang-06a024366/">Chunzheng Wang</a>,
-			        <a href="https://mrsecant.github.io/">Yuhang Zheng</a>,
-					<a href="https://changerc77.github.io/">Xiangyu Chen</a>,
-			        <strong>Weize Li</strong>,
-			        <a href="https://openreview.net/profile?id=%7ESongen_Gu2">Songen Gu</a>,
-		            <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=zh-CN">Yupeng Zheng</a>.</em><br>
-                    <i>ACM International Conference on Multimedia (MM) 2025</i><br>
-					<i>RoboSoft'25 Workshop (<a style="color: red;">Oral</a>) <strong><a style="color: red;">Best Paper Finalist</a></strong></i><br>
-                    <a href="https://arxiv.org/abs/" target="_blank">[arXiv Coming Soon]</a>
-                    <!-- <a href="https://github.com/EricLee0224/awesome-nerf-editing" target="_blank">[Website]</a><br> -->
-                  </p>
-                </div>
-              </div>
-            </article>
-
-	          <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/publications/ppmethod_new.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>PosePilot: Steering Camera Pose for Generative World Models with Self-supervised Depth</b><br>
-                  	  	<a href="https://scholar.google.com/citations?user=uUd5v2cAAAAJ&hl=en">Bu Jin<sup>*</sup></a>,
-				<strong>Weize Li<sup>*</sup></strong>,
-			 	<a>Baihan Yang</a>,
-				<a>Zhenxin Zhu</a>,
-				<a>Junpeng Jiang</a>,
-		                <a href="https://c7w.tech/about/">Huan-ang Gao</a>,
-		                <a>Haiyang Sun</a>,
-		        	<a>Kun Zhan</a>,
-			 	<a>Hengtong Hu</a>,
-				<a>Xueyang Zhang</a>,
-		                <a href="https://scholar.google.com/citations?user=Z_QY_VwAAAAJ">Peng Jia</a>,
-		                <a href="https://sites.google.com/view/fromandto">Hao Zhao</a>.</em><br>
-                    <i>International Conference on Intelligent Robots and Systems (IROS) 2025 (<a style="color: red;">Oral</a>)</i><br>
-                    <a href="https://arxiv.org/abs/2505.01729" target="_blank">[arXiv]</a>
-                    <a href="https://github.com/" target="_blank">[Code Coming Soon]</a><br>
-                    <!-- <p>Description of this paper. TBA.</p> -->
-                  </p>
-                </div>
-              </div>
-            </article>
-		  
-            <!--List of publications-->
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/publications/survey_teaser_new2.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>Radiance Field-Based 3D Editing: A Survey</b><br>
-                    		<strong>Weize Li<sup>*</sup></strong>,
-			        <a href="https://tianshukuai.github.io/">Tianshu Kuai<sup>*</sup></a>,
-				<a href="https://c7w.tech/about/">Huan-ang Gao</a>,
-			        <a href="https://xiangyueliu.github.io/">Xiangyue Liu</a>,
-		                <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&hl=en">Yuhang Zheng</a>,
-			        <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng</a>, etc.</em><br>
-                    <i>T-PAMI 2024 Submission</i><br>
-                    <a href="https://arxiv.org/abs/" target="_blank">[arXiv]</a>
-                    <a href="https://github.com/EricLee0224/awesome-nerf-editing" target="_blank">[Website]</a><br>
-	                  <!-- <p>This is an ongoing survey paper with awesome list repo.</p> -->
-                  </p>
-                </div>
-              </div>
-            </article>
-
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/publications/tod3cap.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>TOD3Cap: Towards 3D Dense Captioning in Outdoor Scenes</b><br>
-                    		<a href="https://scholar.google.com/citations?user=uUd5v2cAAAAJ&hl=en">Bu Jin</a>,
-				<a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng<sup>†</sup></a>,
-				<a href="https://github.com/Philipflyg">Pengfei Li</a>,
-				<strong>Weize Li</strong>,
-				<a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&hl=en">Yuhang Zheng</a>,
-		                <a>Sujie Hu</a>,
-				<a href="https://liuxinyv.github.io/">Xinyu Liu</a>,
-			  	<a>Jinwei Zhu</a>,
-			  	<a href="https://scholar.google.com/citations?user=4PXGeaYAAAAJ">Zhijie Yan</a>,
-			 	<a>Haiyang Sun</a>,
-				<a>Kun Zhan</a>,
-				<a href="https://scholar.google.com/citations?user=Z_QY_VwAAAAJ">Peng Jia</a>,
-		                <a href="https://www.xxlong.site/">Xiaoxiao Long</a>,
-		                <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
-		                <a href="https://sites.google.com/view/fromandto">Hao Zhao</a>.</em><br>
-                    <i>European Conference on Computer Vision (ECCV) 2024 (<a style="color: red;">Poster</a>)</i><br>
-                    <a href="https://arxiv.org/abs/2403.19589" target="_blank">[arXiv]</a>
-                    <a href="https://github.com/jxbbb/TOD3Cap" target="_blank">[Code]</a><br>
-                    [<a style="color: red;">Special Ack.</a> to <a href="https://daveredrum.github.io/">Dave Zhenyu Chen</a>@TUM for valuable proofreading and insightful suggestions.</a>]
-	                  <!-- <p>We introduce the new task of outdoor 3D dense captioning with TOD3Cap dataset; We propose TOD3Cap network, leveraging the BEV representation to encode sparse outdoor scenes, and combine Relation Q-Former with LLaMA-Adapter to dense captioning in the open-world.</p> -->
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/publications/pad.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection</b><br>
-			                	<strong>Weize Li<sup>*</sup></strong>,
-                      	<a href="https://scholar.google.com/citations?user=CMYTxUEAAAAJ&hl=en/">Qiang Zhou<sup>*</sup></a>,
-		         	        	<a href="https://jianglh-whu.github.io/">Lihan Jiang</a>,
-		           	      	<a href="https://github.com/Cross-ZBuild">Guoliang Wang</a>,
-	  	    	  	        <a href="https://air.tsinghua.edu.cn/en/info/1046/1196.htm">Guyue Zhou</a>,
-			                	<a href="https://www.shanghangzhang.com/">Shanghang Zhang</a>,
-	     	      		      <a href="https://sites.google.com/view/fromandto">Hao Zhao</a>.</em><br>
-                    <i>Neural Information Processing Systems (NeurIPS) 2023 Dataset & Benchmark Track (<a style="color: red;">Poster</a>)</i><br>
-                    <a href="https://arxiv.org/abs/2310.07716" target="_blank">[arXiv]</a>
-                    <a href="https://openreview.net/forum?id=kxFKgqwFNk" target="_blank">[OpenReview]</a>
-                    <a href="https://github.com/EricLee0224/PAD" target="_blank">[Code]</a><br>
-                    <!-- <p>We introduce pose-agnostic setting to 3D-aware object anomaly detection problem with MAD dataset, propose the NeRF-based anomaly detection framework: OmniposeAD.</p> -->
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/publications/irflmdnn.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>IRFLMDNN: Hybrid Model for PMU Data Anomaly Detection and Re-filling with Improved Random Forest and Levenberg Marquardt Algorithm Optimized Dynamic Neural Network</b><br>
-                    		<a href="http://faculty.bucea.edu.cn/pub/yumiao/">Miao Yu<sup>†</sup></a>,
-				                <a>Chenyu Yang<sup>*</sup></a>,
-		                		<strong>Weize Li<sup>*</sup></strong>,
-			                	<a>Weijie Du</a>,
-			                	<a>Jinglin Li</a>.</em><br>
-                    <i>Neural Computing and Application 2023</i><br>
-                    <a href="https://dl.acm.org/doi/abs/10.1007/s00521-023-08571-4" target="_blank">[Paper]</a><br>
-                    <!-- <p>We propose a hybrid model of improved RF + DNN to extract time-series features and classify anomalies in power system data.</p> -->
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <!--Projects-->
-
-            <h2 id="Projects">
-              Projects
-              <span style="font-size: 1rem;margin-left: 1rem;position: relative;bottom: .2rem;">
-              </span>
-            </h2>
-
-	         <article class="columns">
-                 <div class="column is-3">
-                 <figure class="image">
-                 <img src="images/misc/wbcd_logo.png">
-                 </figure>
-                </div>
-                <div class="column">
-                <div class="content">
-                  <p>
-                    <b>Awesome-What-Bimanual-Can-Do</b><br>
-              	    <strong>Core Contributor</strong></em><br>
-                    <i>Affiliated with the ICRA 2025 What Bimanual Teleoperation and Learning from Demonstration Can Do (WBCD)</i><br>
-                    <a href="https://arxiv.org/abs/" target="_blank">[arXiv]</a>
-                    <a href="https://github.com/xzxzxzxz/Awesome-What-Bimanual-Can-Do" target="_blank">[Website]</a><br>
-                    <!-- <p>Investigated one‑image‑to‑3D methods like Zero1‑to‑3 to enhance the quality of multi‑view car instances in simulation scenes, with a focus on fine‑tuning models using the ”Car” labeled 3D assets from the Objaverse dataset.</p> -->
-                  </p>
-                </div>
-              </div>
-            </article>
-		  
-           	<article class="columns">
-  		<div class="column is-3">
-    		<figure class="image">
-          <video autoplay loop muted playsinline width="100%">
-            <source src="images/misc/wbcd.mp4" type="video/mp4">
-          </video>
-        </figure>        
-  		</div>
-  		<div class="column">
-    		<div class="content">
-      		    <p>
-		    <b>ICRA 2025 What Bimanuals Can Do (WBCD) Challenge</b><br>
-			<strong>Weize Li</strong>,
-		    <a href="https://absrat.com/">Zhengxiao Han</a>,
-			<a href="https://davidlxu.github.io/">Lixin Xu</a>,
-			<a href="https://changerc77.github.io/">Xiangyu Chen</a>,
-			<a href="https://harrisonbounds.github.io/">Harrison Bounds</a>,
-			<a>Chenrui Zhang</a>,
-			<a href="https://scholar.google.com/citations?user=RYKMFp4AAAAJ&hl=en">Yifan Xu</a>.</em><br>
-                    <i>🏆<span style="color: red; font-weight: bold;">The 1st Place</span> in Table Services Track</i><br>
-		    <a href="https://wbcdcompetition.github.io/" target="_blank">[Website]</a>
-                    <a href="https://github.com/" target="_blank">[Certificate]</a><br>
-                    <p>In the Table Services track, we tackled a series of demanding tasks under strict requirements for speed, precision, and reliability: unfolding a tablecloth (deformable-object manipulation), placing a pizza onto the table (pick-and-place), and opening and closing a food storage box. </p>
-                  </p>
-                </div>
-              </div>
-            </article>
-		  
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/misc/zero12car.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>Zero1-to-Car: Finetuning Zero1-to-3 for Single Vehicle Image to 3D Generation</b><br>
-              			<!-- <strong>Weize Li</strong></em><br> -->
-                    <i>AIR Research Project 2023</i><br>
-                    <a href="https://github.com/" target="_blank">[Coming soon]</a><br>
-                    <!-- <p>Investigated one‑image‑to‑3D methods like Zero1‑to‑3 to enhance the quality of multi‑view car instances in simulation scenes, with a focus on fine‑tuning models using the ”Car” labeled 3D assets from the Objaverse dataset.</p> -->
-                  </p>
-                </div>
-              </div>
-            </article>
-
-<!--             <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/misc/mcadtr.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>McADTR: Multi-class Anomaly Detection TRansformer with Heterogenous Knowledge Distillation</b><br>
-			<strong>Weize Li</strong></em><br>
-                    <i>AIR Summer Research 2022</i><br>
-                    <a href="https://github.com/EricLee0224/McADTR" target="_blank">[Code]</a><br>
-                </div>
-              </div>
-            </article> -->
-
-
-            <!--Experiences-->
-            <!-- <h2 id="Experiences" style="margin-bottom: 25px;">Experiences</h2>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/misc/tongji.png" class="img-logo">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>B.S. in Tongji University</b><br>
-                    Time: Aug 2019 - Jun 2023.  
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/misc/sjtu.png" class="img-logo">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>Ph.D in Shanghai Jiao Tong University</b><br>
-                    Time: Sept 2023 - Present.
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="images/misc/ailab.png" class="img-logo">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b>Research Intern</b> | Shanghai Artificial Intelligence Lab(<a href="https://www.shlab.org.cn/" target="_blank" rel="noopener">PJLAB</a>)<br>
-                    Time: Nov 2022 - Present.
-                  </p>
-                </div>
-              </div>
-            </article> -->
-            
-            <!-- Patents -->
-<!--             <h2 id="Patents" onclick="togglePatents()">Patents
-              <span style="display: inline; color:#999999; text-decoration:none; font-size: 15px; margin-left: 1rem;">
-                (click to show all)
-              </span>
-            </h2>
-            <div id="patentsContent" style="display:none;">
-              <ul>
-                <li><b>Power low frequency oscillation data anomaly monitoring system v1.0[s]</b>, CN Software Patent No.2022SR0277090</li>
-                <li><b>Power low frequency oscillation data acquisition system v1.0[s]</b>, CN Software Patent No.2022SR0281546</li>
-              </ul>
-            </div> -->
-
-            <!--Awards-->
-            <h2 id="Awards">Awards</h2>
-            <ul>
-              <li>[2025] Champion Award (1st place), IEEE ICRA 2025 What Bimanuals Can Do (WBCD) Challenge in Table Services Track.
-              <li>[2022] <strong>Best Undergraduate Dissertation Award, Beijing Education Commission (top 1% in 130,000 students).</strong>
-              <li>[2022] Silver Award, Beijing Challenge Cup: Entrepreneurial Plan Competition in AI System Track (Rank.2).
-            </ul>
-            
-            <!--Service-->
-            <h2 id="Service">Service</h2>
-            <p>
-              I served / was delegated as Reviewer for NeurIPS’23, CVPR’24, IJCV, ICLR'25.
-            </p>
-
-            <!-- Misc. -->
-            <h2 id="Misc">Misc.</h2>
-            <p>
-              Outside of research, I enjoy playing football⚽, fitness💪 and photography📷. I am a member of the Certified Referee of the Chinese Football Association. I am also a big fan of Taylor Swift🦋.
-            </p>
-            <p>
-              Meet our workmates:
-              <figure class="image">
-                <img src="images/misc/workmates.jpg">
-              </figure>
-
-            </p>
-            <!-- To be add? -->
-
-          </div>
+        <div id="navbarMenu" class="mobile-hide">
+            <div class="nav navbar-nav" onclick="toggleMenu()">
+                <a href="index.html#home" class="nav-link mx-3 nav-item-custom active" data-bs-toggle="tab" aria-controls="home" aria-selected="true" onclick="openInfoBanner()">
+                    <span>Home</span>
+                    <i class="bi bi-arrow-right hide"></i>
+                </a>
+                <a href="index.html#research" class="nav-link mx-3 nav-item-custom" data-bs-toggle="tab" aria-controls="research" aria-selected="false" onclick="toggleInfoBanner()">
+                    <span>Research</span>
+                    <i class="bi bi-arrow-right hide"></i>
+                </a>
+<!--                <a href="#education" class="nav-link mx-3 nav-item-custom" data-bs-toggle="tab" aria-controls="education" aria-selected="false" onclick="toggleInfoBanner()">-->
+<!--                    <span>Education</span>-->
+<!--                    <i class="bi bi-arrow-right hide"></i>-->
+<!--                </a>-->
+                <a href="index.html#experience" class="nav-link mx-3 nav-item-custom" data-bs-toggle="tab" aria-controls="experience" aria-selected="false" onclick="toggleInfoBanner()">
+                    <span>Experience</span>
+                    <i class="bi bi-arrow-right hide"></i>
+                </a>
+                <a href='index.html#misc' class="nav-link mx-3 nav-item-custom" data-bs-toggle="tab" aria-controls="misc" aria-selected="false" onclick="toggleInfoBanner()">
+                    <span>Misc</span>
+                    <i class="bi bi-arrow-right hide"></i>
+                </a>
+                <a href="https://clustrmaps.com/site/1bwma"  title="Visit tracker" style="display: none; visibility: hidden"><img src="https://www.clustrmaps.com/map_v2.png?d=AwSgqckR8DHZj5bGPJ3UD8eMn8VX42BWURJ-nQqb178&amp;cl=ffffff" /></a>
+            </div>
         </div>
-      </div>
     </div>
+    <div class="m-0" id="main">
+        <div class="info-banner" id="info-banner" style="background-image: url('images/avatar/yuheng_2025_01_square.jpg'); display: block; visibility: visible">
+            <div class="background-filter">
+                <div class="wrapper d-flex justify-content-between m-auto px-4 py-5 align-items-center">
+                    <div class="first">
+                        <h1>Weize Li</h1>
+                        <h4>TARS Robotics</h4>
+                        <h4>AIR, Tsinghua University</h4>
+                        <div class="mt-5">
+                            <a href="https://twitter.com/yuhengliu02" target="_blank">
+                                <i class="fab fa-twitter profile-info-icon"></i></a> 
+                            <a href="https://www.linkedin.com/in/yuhengliu02" target="_blank">
+                                <i class="fab fa-linkedin profile-info-icon"></i></a>
+                            <a href="https://github.com/EricLee0224" target="_blank">
+                                <i class="fab fa-github profile-info-icon"></i></a>
+                            <a href="https://orcid.org/0009-0001-3690-5659" target="_blank">
+                                <i class="fab fa-orcid profile-info-icon"></i></a>
+                            <a href="https://scholar.google.com/citations?user=zhiPMtoAAAAJ&hl=en&authuser=1" target="_blank">
+                                <i class="fas fa-graduation-cap profile-info-icon"></i></a>
+                            <div class="profile-email-area">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:liweize0224@gmail.com">liweize0224@gmail.com</a><br/>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="images/avatar/weize_animation.jpg" alt="your name here" id="avatar" class="second">
+                </div>
+            </div>
+        </div>
 
+        <div class="row m-0 mt-4 p-0 wrapper" style="flex-grow: 1;">
+            <div class="col-md-12 col-lg-12 p-4 tab-content">
 
+                <div class="tab-pane fade show active" id="home">
+                    <div class="mb-5">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0">About</h4>
+                        </div>
+                        <div class="collapse show" id="collapseInt">
+                            <p>
+                                I am currently a Research Assistant (RA) at <a href="https://air.tsinghua.edu.cn/en/" target="_blank"><u><b>Tsinghua University</b></u></a> and a Research Engineer at <a href="https://technode.com/2025/07/09/embodied-ai-startup-tars-completes-122-million-angel-funding-round-report/" target="_blank"><u><b>TARS Robotics</b></u></a>, working with <a href="https://acberg.com/" target="_blank"><u>Prof. Wenchao Ding</u></a> and <a href="https://acberg.com/" target="_blank"><u>Prof. Yilun Chen</u></a>. 
+                                Previously, I was fortunate to work closely with <a href="https://www.xxlong.site/" target="_blank"><u>Prof. Xiaoxiao Long</u></a> from <a href="https://www.nju.edu.cn/en/" target="_blank"><u>NJU</u></a>, <a href="https://ece.hkust.edu.hk/pingtan" target="_blank"><u>Prof. Ping Tan</u></a> from <a href="https://hkust.edu.hk/" target="_blank"><u>HKUST</u></a>, and <a href="https://sites.google.com/view/fromandto" target="_blank"><u>Prof. Hao Zhao</u></a> from <a href="https://www.discover-lab.com/" target="_blank"><u>DISCOVER Lab</u></a>.
+                                I was a visiting student at the <a href="http://english.ia.cas.cn/" target="_blank"><u>Institute of Automation, Chinese Academy of Sciences</u></a> in my senior year.
+                                <!-- I received my B.Eng. from Beijing University of Civil Engineering and Architecture, where I was honored with the Best Bachelor Thesis Award in 2022. -->
+                            </p>
+                            <p>
+                                <strong>My long-term research goal is to build Embodied Intelligence with Dexterous Manipulation and Flexible Mobility.</strong> It should be able to perceive and imagine the real world, then derive insights through understanding to guide the action.
+                                I am currently focusing on <strong>{Robotics, 3D Vision, Graphics} for Embodied AI</strong>:
+                            </p>
+                            <ul>
+                                <li>🤖<strong> Robotics</strong>
+                                <br>Manipulation; Foundation Models for Robotics; Autonomous Driving.
+                                <li>👀<strong> 3D Vision</strong>
+                                <br>3D Scene Understanding (e.g.visual grounding, dense captioning, VQA); Robot Perception; <S>Anomaly Detection</S>.
+                                <li>🪅<strong> Graphics</strong>
+                                <br>3D Reconstruction and Editing for Simulation; Digital Twins; World Models.
+                            </ul>
+                        </div>
+                    </div>
 
-    <!-- Footer -->
-	<footer class="container">
-	  <br><hr>
-	  <!-- counts ip -->
-	  <div id="clustrmaps-widget" style="width:10%; margin: 0 auto; text-align: center;">
-	    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=b7mtyQom9p7zsZIJHjY71xt4m7fiicjvzctV6CkNA-s"></script>
-	  </div>
-	  <div class="row" style="text-align: center;">
-	    © 2025 Weize Li<br>Last update: July. 2025
-	  </div>
-	</footer>
-  </section>
+                    <div class="mb-5" style="padding-bottom: 40px">
+<!--                        <div class="d-flex align-items-center justify-content-between mb-3">-->
+<!--                            <h4 class="m-0">News</h4>-->
+<!--                            <button class="btn btn-light btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNews" aria-expanded="false" aria-controls="collapseNews">-->
+<!--                                <i class="bi bi-arrows-collapse"></i>-->
+<!--                            </button>-->
+<!--                        </div>-->
 
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0">News</h4>
+<!--                            <button class="btn btn-light btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2025" aria-expanded="false" aria-controls="collapseNews">-->
+<!--                                <i class="bi bi-arrows-collapse"></i>-->
+<!--                            </button>-->
+                        </div>
 
-  <script>
+                        <div class="collapse show" id="collapse2025">
+                            <div class="news-card" >
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2025</h4>
+                                        <h5 class="mb-0 news-date-month">August</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            🎉 Our work 'RoboGEM' is accepted by ACM MM 2025, RoboSoft'25 workshop as an <b>Oral Presentation</b>!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-    var $hashList = $('.menu-list a'), offsetList, maxScrollHeight;
+                            <div class="news-card" >
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2025</h4>
+                                        <h5 class="mb-0 news-date-month">August</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            🏆 We have released tech report of champion solution for WBCD Challenge.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-    $('#sidebar').on('click', 'a', function(){
-      activate($(this))
-    });
-    
-    $(window).on('resize', debounce(calculateBoundary, 300));
+                            <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2025</h4>
+                                        <h5 class="mb-0 news-date-month">May</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            🇺🇸 I will participate the IEEE ICRA 2025 in person, see you in Atlanta!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-    $(document).on('scroll', debounce(judgeScroll, 300));
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0 news-year">2024</h4>
+                            <button class="btn btn-light btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2024" aria-expanded="false" aria-controls="collapseNews">
+                                <i class="bi bi-arrows-collapse"></i>
+                            </button>
+                        </div>
 
-    calculateBoundary();
-    judgeScroll();
-    
-    function togglePatents() {
-    var content = document.getElementById("patentsContent");
-    if (content.style.display === "none") {
-      content.style.display = "block";
-    } else {
-      content.style.display = "none";
-    }
-  }
+                        <div class="collapse" id="collapse2024">
+                            <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2024</h4>
+                                        <h5 class="mb-0 news-date-month">October</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            🇮🇹 I will participate the ECCV 2024 in person to present our work "TOD3Cap", see you in Milano!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-    function  calculateBoundary() {
-      offsetList = $hashList.map(function(idx, ele){
-        return $(ele.hash).offset().top
-      });
-      maxScrollHeight = $(document).height() - $(window).height()
-    }
-    
-    function judgeScroll() {
-      var tps = $("html").scrollTop()
-              ? $("html").scrollTop()
-              : $("body").scrollTop(),
-              len = offsetList.length;
-      if(tps >= maxScrollHeight-10){
-        activate($hashList.eq(len-1));
-        return
-      }
-      for(var i=0; i<len; i++){
-       if(tps+50<offsetList[i]){
-          activate($hashList.eq(Math.max(0,i-1)));
-          return
+                            <!-- <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2024</h4>
+                                        <h5 class="mb-0 news-date-month">September</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            🤗 I received the <a href="images/honors/Best_Student_Y4.jpg" target="_blank"><b><u>Best Student</u></b></a> award in my final year.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2024</h4>
+                                        <h5 class="mb-0 news-date-month">August</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            Code of 'Pyramid Diffusion for Fine 3D Large Scene Generation' has been released. Access to our <a href="https://github.com/yuhengliu02/pyramid-discrete-diffusion/tree/main?tab=readme-ov-file"><b>Github</b></a> for more information.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2024</h4>
+                                        <h5 class="mb-0 news-date-month">August</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            🎉 Our work 'Pyramid Diffusion for Fine 3D Large Scene Generation' is accepted as an <b>Oral Presentation</b>!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2024</h4>
+                                        <h5 class="mb-0 news-date-month">July</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            🎉 Our work 'Pyramid Diffusion for Fine 3D Large Scene Generation' is accepted by ECCV 2024!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2024</h4>
+                                        <h5 class="mb-0 news-date-month">June</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            🥰 I graduated from SWJTU with Outstanding Graduates of Sichuan Province and Best Bachelor Thesis, and University of Leeds with First-class Degree!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2024</h4>
+                                        <h5 class="mb-0 news-date-month">February</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            Our work 'Deep Hierarchical Learning for 3D Semantic Segmentation' is submitted. Access to our <a href="https://dhl3d.github.io/" target="_blank"><b><u>Project Page</u></b></a> for more details.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0 news-year">2023</h4>
+                            <button class="btn btn-light btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2023" aria-expanded="false" aria-controls="collapseNews">
+                                <i class="bi bi-arrows-collapse"></i>
+                            </button>
+                        </div> -->
+
+                        <!-- <div class="collapse" id="collapse2023">
+                            <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2023</h4>
+                                        <h5 class="mb-0 news-date-month">November</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            Our work 'Pyramid Diffusion for Fine 3D Large Scene Generation' is on <a href="https://arxiv.org/abs/2311.12085" target="_blank"><b><u>arXiv</u></b></a>.
+                                        </p>
+                                    </div>
+                                </div> -->
+                            <!-- </div>
+
+                            <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2023</h4>
+                                        <h5 class="mb-0 news-date-month">November</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            Our work 'Pyramid Diffusion for Fine 3D Large Scene Generation' is submitted. Access to our <a href="project-page/pyramid-discrete-diffusion" target="_blank"><b><u>Project Page</u></b></a> for more details.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2023</h4>
+                                        <h5 class="mb-0 news-date-month">October</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            Awarded a national scholarship (top 0.2% nationwide).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> -->
+<!-- 
+                            <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2023</h4>
+                                        <h5 class="mb-0 news-date-month">September</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            Ranked first in my major during my junior year.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="news-card">
+                                <div class="row g-0">
+                                    <div class="col-md-2 news-date">
+                                        <h4 class="mb-0">2023</h4>
+                                        <h5 class="mb-0 news-date-month">June</h5>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p class="mb-0 text-body-secondary">
+                                            I start my summer research internship at UC Merced, under the supervision of Prof. Ming-Hsuan Yang.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="research">
+                    <div class="mb-5">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0">Publications</h4>
+                            <button class="btn btn-light btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRes" aria-expanded="false" aria-controls="collapseRes">
+                                <i class="bi bi-arrows-collapse"></i>
+                            </button>
+                        </div>
+                        <div class="collapse show" id="collapseRes">
+
+                            <div class="card research-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <img src="images/publications/wbcd_final.svg" alt="paper image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Taming VR Teleoperation and Learning from Demonstration for Multi-Task Bimanual Table Service Manipulation
+                                            </h5>
+                                            <p class="card-text">
+                                                <small class="text-body-secondary">
+                                                    <strong>Weize Li</strong>,
+		    		                                <a href="https://absrat.com/">Zhengxiao Han</a>,
+					                                <a href="https://davidlxu.github.io/">Lixin Xu</a>,
+					                                <a href="https://changerc77.github.io/">Xiangyu Chen</a>,
+					                                <a href="https://harrisonbounds.github.io/">Harrison Bounds</a>,
+					                                <a>Chenrui Zhang</a>,
+					                                <a href="https://scholar.google.com/citations?user=RYKMFp4AAAAJ&hl=en">Yifan Xu</a>.
+                                                    <br/> <b>Technical Report, 2025</b>
+                                                </small>
+                                            </p>
+                                            <p class="card-text">
+                                                <small>
+                                                    We won the ICRA 2025 WBCD Table Service Track with a champion solution that combines VR teleoperation and Learning from Demonstrations for efficient and reliable bimanual robot manipulation.
+                                                </small>
+                                            </p>
+
+                                            <a href="http://arxiv.org/abs/2508.14542" target="_blank">
+                                                <button class="btn btn-arxiv btn-research paper-btn"><img src="images/icons/arxiv-logomark-small.svg"> arXiv</button></a>
+<!-- 
+                                            <a href="https://github.com/yuhengliu02/control-3d-scene" target="_blank">
+                                                <button class="btn btn-dark btn-research paper-btn"><i class="bi bi-github"></i> Code</button></a> -->
+
+                                            <a href="https://wbcdcompetition.github.io/" target="_blank">
+                                                <button class="btn btn-primary btn-research paper-btn"><i class="bi bi-globe-americas"></i> Website</button></a>
+
+                                            <!-- <a href="https://youtu.be/4YRTydsv-qg?si=8c5fgjm8Gj9ztsJk" target="_blank">
+                                                <button class="btn btn-danger btn-research paper-btn"><i class="bi bi-youtube"></i> Keynote</button></a>
+
+                                            <a href="https://control3dscene.cilix.ai/#/" target="_blank">
+                                                <button class="btn btn-research paper-btn cilix-demo"><span><i class="fa-brands fa-grav"></i> Interactive System</span></button></a> -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="card research-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <img src="images/publications/robogem_teaser.svg" alt="paper image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                RoboGEM: Learning Language-guided Robotic Manipulation via Generalizable and Efficient Feature Distillation
+                                            </h5>
+                                            <p class="card-text">
+                                                <small class="text-body-secondary">
+                                                    <a href="https://www.linkedin.com/in/chunzheng-wang-06a024366/">Chunzheng Wang</a>,
+			                                        <a href="https://mrsecant.github.io/">Yuhang Zheng</a>,
+					                                <a href="https://changerc77.github.io/">Xiangyu Chen</a>,
+			                                        <strong>Weize Li</strong>,
+			                                        <a href="https://openreview.net/profile?id=%7ESongen_Gu2">Songen Gu</a>,
+		                                            <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=zh-CN">Yupeng Zheng</a>.
+                                                    <br/> <b>ACM International Conference on Multimedia (ACM MM), 2025</b>
+                                                    <br/> RoboSoft'25 Workshop - <a style="color: red;">Oral</a> - <strong><a style="color: red;">Best Paper Finalist</a></strong>
+                                                </small>
+                                            </p>
+                                            <p class="card-text">
+                                                <small>
+                                                    RoboGEM is a generalizable and efficient 3D representation that empowers robots to perform diverse manipulation tasks with speed and robustness.
+                                                </small>
+                                            </p>
+
+                                            <a href="http://arxiv.org/abs/" target="_blank">
+                                                <button class="btn btn-arxiv btn-research paper-btn"><img src="images/icons/arxiv-logomark-small.svg"> arXiv</button></a>
+
+                                            <a href="https://github.com" target="_blank">
+                                                <button class="btn btn-dark btn-research paper-btn"><i class="bi bi-github"></i> Code</button></a>
+
+                                            <a href="https://TBD" target="_blank">
+                                                <button class="btn btn-primary btn-research paper-btn"><i class="bi bi-globe-americas"></i> Website</button></a>
+
+                                            <!-- <a href="https://link.springer.com/article/10.1007/s11263-025-02387-6#citeas" target="_blank">
+                                                <button class="btn btn-poster btn-research paper-btn"><i class="fa-solid fa-paper-plane"></i> Paper</button></a> -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="card research-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <img src="images/publications/ppmethod_new.png" alt="paper image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                PosePilot: Steering Camera Pose for Generative World Models with Self-supervised Depth
+                                            </h5>
+                                            <p class="card-text">
+                                                <small class="text-body-secondary">
+                                                    <a href="https://scholar.google.com/citations?user=uUd5v2cAAAAJ&hl=en">Bu Jin<sup>*</sup></a>,
+				                                    <strong>Weize Li<sup>*</sup></strong>,
+			 	                                    <a>Baihan Yang</a>,
+				                                    <a>Zhenxin Zhu</a>,
+				                                    <a>Junpeng Jiang</a>,
+		                                            <a href="https://c7w.tech/about/">Huan-ang Gao</a>,
+		                                            <a>Haiyang Sun</a>,
+		        	                                <a>Kun Zhan</a>,
+			 	                                    <a>Hengtong Hu</a>,
+				                                    <a>Xueyang Zhang</a>,
+		                                            <a href="https://scholar.google.com/citations?user=Z_QY_VwAAAAJ">Peng Jia</a>,
+		                                            <a href="https://sites.google.com/view/fromandto">Hao Zhao</a>.
+                                                    <br/> <b>International Conference on Intelligent Robots and Systems (IROS), 2025</b>
+                                                </small>
+                                            </p>
+                                            <p class="card-text">
+                                                <small>
+                                                    PosePilot is a lightweight framework that enhances camera pose controllability in generative world models, enabling precise, consistent, and adaptable viewpoint synthesis for autonomous driving and beyond.
+                                                </small>
+                                            </p>
+
+                                            <a href="https://arxiv.org/abs/2505.01729" target="_blank">
+                                                <button class="btn btn-arxiv btn-research paper-btn"><img src="images/icons/arxiv-logomark-small.svg"> arXiv</button></a>
+
+                                            <a href="https://github.com/" target="_blank">
+                                                <button class="btn btn-dark btn-research paper-btn"><i class="bi bi-github"></i> Code</button></a>
+
+                                            <a href="https://TBD" target="_blank">
+                                                <button class="btn btn-primary btn-research paper-btn"><i class="bi bi-globe-americas"></i> Website</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="card research-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <img src="images/publications/survey_teaser_new2.png" alt="paper image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Radiance Field-Based 3D Editing: A Survey
+                                            </h5>
+                                            <p class="card-text">
+                                                <small class="text-body-secondary">
+                                                    <strong>Weize Li<sup>*</sup></strong>,
+			                                        <a href="https://tianshukuai.github.io/">Tianshu Kuai<sup>*</sup></a>,
+				                                    <a href="https://c7w.tech/about/">Huan-ang Gao</a>,
+			                                        <a href="https://xiangyueliu.github.io/">Xiangyue Liu</a>,
+		                                            <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&hl=en">Yuhang Zheng</a>,
+			                                        <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng</a>, etc.
+                                                    <br/> <b>In Submission</b>
+                                                </small>
+                                            </p>
+                                            <p class="card-text">
+                                                <small>
+                                                    This survey reviews recent advances, methods, datasets, and applications in Radiance Field-based 3D Editing, highlighting challenges and future directions.
+                                                </small>
+                                            </p>
+
+                                            <a href="http://arxiv.org/abs/" target="_blank">
+                                                <button class="btn btn-arxiv btn-research paper-btn"><img src="images/icons/arxiv-logomark-small.svg"> arXiv</button></a>
+
+                                            <!-- <a href="https://github.com/dhl3d/deep-hierarchical-learning-for-3d-segmentation" target="_blank">
+                                                <button class="btn btn-dark btn-research paper-btn"><i class="bi bi-github"></i> Code</button></a> -->
+
+                                            <a href="https://github.com/EricLee0224/awesome-nerf-editing" target="_blank">
+                                                <button class="btn btn-primary btn-research paper-btn"><i class="bi bi-globe-americas"></i> Website</button></a>
+<!-- 
+                                            <a href="https://link.springer.com/article/10.1007/s11263-025-02387-6#citeas" target="_blank">
+                                                <button class="btn btn-poster btn-research paper-btn"><i class="fa-solid fa-paper-plane"></i> Paper</button></a> -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="card research-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <img src="images/publications/tod3cap.png" alt="paper image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                TOD3Cap: Towards 3D Dense Captioning in Outdoor Scenes
+                                            </h5>
+                                            <p class="card-text">
+                                                <small class="text-body-secondary">
+                                                    <a href="https://scholar.google.com/citations?user=uUd5v2cAAAAJ&hl=en">Bu Jin</a>,
+				                                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng<sup>†</sup></a>,
+				                                    <a href="https://github.com/Philipflyg">Pengfei Li</a>,
+				                                    <strong>Weize Li</strong>,
+				                                    <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&hl=en">Yuhang Zheng</a>,
+		                                            <a>Sujie Hu</a>,
+				                                    <a href="https://liuxinyv.github.io/">Xinyu Liu</a>,
+			  	                                    <a>Jinwei Zhu</a>,
+			  	                                    <a href="https://scholar.google.com/citations?user=4PXGeaYAAAAJ">Zhijie Yan</a>,
+			 	                                    <a>Haiyang Sun</a>,
+				                                    <a>Kun Zhan</a>,
+				                                    <a href="https://scholar.google.com/citations?user=Z_QY_VwAAAAJ">Peng Jia</a>,
+		                                            <a href="https://www.xxlong.site/">Xiaoxiao Long</a>,
+		                                            <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
+		                                            <a href="https://sites.google.com/view/fromandto">Hao Zhao</a>.
+                                                    <br/> <b>European Conference on Computer Vision (ECCV), 2024 - <a style="color: red;">Poster</a></b>
+                                                </small>
+                                            </p>
+                                            <p class="card-text">
+                                                <small>
+                                                    We introduce TOD3Cap, a benchmark dataset and network for outdoor 3D dense captioning, enabling accurate object localization and rich natural language descriptions from LiDAR and panoramic images.
+                                                </small>
+                                            </p>
+
+                                            <a href="https://arxiv.org/abs/2403.19589" target="_blank">
+                                                <button class="btn btn-arxiv btn-research paper-btn"><img src="images/icons/arxiv-logomark-small.svg"> arXiv</button></a>
+
+                                            <a href="https://github.com/jxbbb/TOD3Cap" target="_blank">
+                                                <button class="btn btn-dark btn-research paper-btn"><i class="bi bi-github"></i> Code</button></a>
+
+                                            <a href="https://jxbbb.github.io/TOD3Cap/" target="_blank">
+                                                <button class="btn btn-primary btn-research paper-btn"><i class="bi bi-globe-americas"></i> Website</button></a>
+
+                                            <!-- <a href="https://link.springer.com/article/10.1007/s11263-025-02387-6#citeas" target="_blank">
+                                                <button class="btn btn-poster btn-research paper-btn"><i class="fa-solid fa-paper-plane"></i> Paper</button></a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="card research-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <img src="images/publications/pad.png" alt="paper image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection
+                                            </h5>
+                                            <p class="card-text">
+                                                <small class="text-body-secondary">
+                                                    <a href="https://scholar.google.com/citations?user=CMYTxUEAAAAJ&hl=en/">Qiang Zhou<sup>*</sup></a>,
+                                                    <strong>Weize Li<sup>*</sup></strong>,
+		         	        	                    <a href="https://jianglh-whu.github.io/">Lihan Jiang</a>,
+		           	      	                        <a href="https://github.com/Cross-ZBuild">Guoliang Wang</a>,
+	  	    	  	                                <a href="https://air.tsinghua.edu.cn/en/info/1046/1196.htm">Guyue Zhou</a>,
+			                	                    <a href="https://www.shanghangzhang.com/">Shanghang Zhang</a>,
+	     	      		                            <a href="https://sites.google.com/view/fromandto">Hao Zhao</a>.
+                                                    <br/> <b>Neural Information Processing Systems (NeurIPS), 2023 - <a style="color: red;">Poster</a></b>
+                                                    <br/>Dataset & Benchmark Track
+                                                </small>
+                                            </p>
+                                            <p class="card-text">
+                                                <small>
+                                                    We introduce the MAD dataset, PAD benchmark, and OmniposeAD method to tackle pose-agnostic object anomaly detection with diverse 3D anomalies and standardized evaluation.
+                                                </small>
+                                            </p>
+
+                                            <a href="https://arxiv.org/abs/2310.07716" target="_blank">
+                                                <button class="btn btn-arxiv btn-research paper-btn"><img src="images/icons/arxiv-logomark-small.svg"> arXiv</button></a>
+
+                                            <a href="https://github.com/EricLee0224/PAD" target="_blank">
+                                                <button class="btn btn-dark btn-research paper-btn"><i class="bi bi-github"></i> Code</button></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="card research-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <img src="images/publications/irflmdnn.png" alt="paper image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                IRFLMDNN: Hybrid Model for PMU Data Anomaly Detection and Re-filling with Improved Random Forest and Levenberg Marquardt Algorithm Optimized Dynamic Neural Network
+                                            </h5>
+                                            <p class="card-text">
+                                                <small class="text-body-secondary">
+                                                    <a href="http://faculty.bucea.edu.cn/pub/yumiao/">Miao Yu<sup>†</sup></a>,
+				                                    <a>Chenyu Yang<sup>*</sup></a>,
+		                		                    <strong>Weize Li<sup>*</sup></strong>,
+			                	                    <a>Weijie Du</a>,
+			                	                    <a>Jinglin Li</a>.
+                                                    <br/> <b>Neural Computing and Application, 2023</b>
+                                                </small>
+                                            </p>
+                                            <p class="card-text">
+                                                <small>
+                                                    We propose IRFLMDNN, a hybrid model combining random forests and dynamic neural networks for accurate anomaly detection and adaptive data refilling in PMU time series.
+                                                </small>
+                                            </p>
+
+                                            <a href="https://dl.acm.org/doi/abs/10.1007/s00521-023-08571-4" target="_blank">
+                                                <button class="btn btn-arxiv btn-research paper-btn"><img src="images/icons/arxiv-logomark-small.svg"> arXiv</button></a>
+
+                                            <!-- <a href="https://github.com/dhl3d/deep-hierarchical-learning-for-3d-segmentation" target="_blank">
+                                                <button class="btn btn-dark btn-research paper-btn"><i class="bi bi-github"></i> Code</button></a>
+
+                                            <a href="https://dhl3d.github.io/" target="_blank">
+                                                <button class="btn btn-primary btn-research paper-btn"><i class="bi bi-globe-americas"></i> Website</button></a>
+
+                                            <a href="https://link.springer.com/article/10.1007/s11263-025-02387-6#citeas" target="_blank">
+                                                <button class="btn btn-poster btn-research paper-btn"><i class="fa-solid fa-paper-plane"></i> Paper</button></a> -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <hr>
+
+                            <div class="card research-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <img src="images/research-img/pyramid-discrete-diffusion.png" alt="paper image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Pyramid Diffusion for Fine 3D Large Scene Generation
+                                            </h5>
+                                            <p class="card-text">
+                                                <small class="text-body-secondary">
+                                                    <b>Yuheng Liu</b>, Xinke Li, Xueting Li, Lu Qi, Chongshou Li, Ming-Hsuan Yang
+                                                    <br/>
+                                                    <b>ECCV 2024 </b><b class="oral">(Oral Presentation)</b>
+                                                </small>
+                                            </p>
+                                            <p class="card-text">
+                                                <small>
+                                                    This work uses a coarse-to-fine approach with scale-varied diffusion models to generate high-quality outdoor scenes. It successfully generates 3D scenes both unconditionally and conditionally, and it allows for easy fine-tuning across different datasets and generating infinite scenes.
+                                                </small>
+                                            </p>
+
+                                            <a href="https://arxiv.org/abs/2311.12085" target="_blank">
+                                                <button class="btn btn-arxiv btn-research paper-btn"><img src="images/icons/arxiv-logomark-small.svg"> arXiv</button></a>
+
+                                            <a href="https://github.com/yuhengliu02/pyramid-discrete-diffusion" target="_blank">
+                                                <button class="btn btn-dark btn-research paper-btn"><i class="bi bi-github"></i> Code</button></a>
+
+                                            <a href="project-page/pyramid-discrete-diffusion" target="_blank">
+                                                <button class="btn btn-primary btn-research paper-btn"><i class="bi bi-globe-americas"></i> Website</button></a>
+
+                                            <a href="https://www.youtube.com/watch?v=9EmUq4cnyGM" target="_blank">
+                                                <button class="btn btn-danger btn-research paper-btn"><i class="bi bi-youtube"></i> Keynote</button></a>
+
+                                            <a href="https://www.youtube.com/watch?v=LgXsvBZOPxA&t=311s" target="_blank">
+                                                <button class="btn btn-success btn-research paper-btn"><i class="fa-solid fa-blog"></i> Presentation</button></a>
+
+                                            <a href="https://yuheng.ink/project-page/pyramid-discrete-diffusion/poster/poster_v2_low_resolution.pdf" target="_blank">
+                                                <button class="btn btn-poster btn-research paper-btn"><i class="fa-brands fa-hive"></i> Poster</button></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                        </div>
+
+                        <hr>
+
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0">Other Projects</h4>
+                            <button class="btn btn-light btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRes2" aria-expanded="false" aria-controls="collapseRes2">
+                                <i class="bi bi-arrows-collapse"></i>
+                            </button>
+                        </div>
+
+                        <div class="collapse show" id="collapseRes2">
+
+                            <div class="card research-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <img src="images/misc/wbcd_logo.png" alt="paper image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Awesome-What-Bimanual-Can-Do
+                                            </h5>
+                                            <p class="card-text">
+                                                <small class="text-body-secondary">
+                                                    <b>Core Contributor.</b>
+                                                </small>
+                                            </p>
+                                            <p class="card-text">
+                                                <small>
+                                                    Affiliated with the ICRA 2025 What Bimanual Teleoperation and Learning from Demonstration Can Do (WBCD)
+                                                </small>
+                                            </p>
+
+                                            <a href="https://arxiv.org/abs/2408.12062" target="_blank">
+                                                <button class="btn btn-arxiv btn-research paper-btn"><img src="images/icons/arxiv-logomark-small.svg"> arXiv</button></a>
+
+                                            <!-- <a href="https://github.com/tangsankou/PointSP" target="_blank">
+                                                <button class="btn btn-dark btn-research paper-btn"><i class="bi bi-github"></i> Code</button></a> -->
+
+                                            <a href="https://pointsp.github.io/" target="_blank">
+                                                <button class="btn btn-primary btn-research paper-btn"><i class="bi bi-globe-americas"></i> Website</button></a>
+
+                                            <!-- <a href="https://pointsp.github.io/poster/csig2025_poster_IJCAI.pdf" target="_blank">
+                                                <button class="btn btn-poster btn-research paper-btn"><i class="fa-brands fa-hive"></i> Poster</button></a> -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="card research-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <!-- <img src="images/research-img/VRMDiff.png" alt="paper image"> -->
+                                        <video autoplay loop muted playsinline width="100%">
+                                            <source src="images/misc/wbcd.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                ICRA 2025 What Bimanuals Can Do (WBCD) Challenge
+                                            </h5>
+                                            <p class="card-text">
+                                                <small class="text-body-secondary">
+                                                    <strong>Weize Li</strong>,
+		                                            <a href="https://absrat.com/">Zhengxiao Han</a>,
+			                                        <a href="https://davidlxu.github.io/">Lixin Xu</a>,
+			                                        <a href="https://changerc77.github.io/">Xiangyu Chen</a>,
+			                                        <a href="https://harrisonbounds.github.io/">Harrison Bounds</a>,
+			                                        <a>Chenrui Zhang</a>,
+			                                        <a href="https://scholar.google.com/citations?user=RYKMFp4AAAAJ&hl=en">Yifan Xu</a>.
+                                                    <br/>
+                                                    <b>🏆<span style="color: red; font-weight: bold;">The 1st Place</span> in Table Services Track</b>
+                                                </small>
+                                            </p> 
+                                            <p class="card-text">
+                                                <small>
+                                                    In the Table Services track, we tackled a series of demanding tasks under strict requirements for speed, precision, and reliability: unfolding a tablecloth (deformable-object manipulation), placing a pizza into the container (pick-and-place), and opening and closing a food storage box. 
+                                                </small>
+                                            </p>
+
+                                            <!-- <a href="https://arxiv.org/abs/2503.10678" target="_blank">
+                                                <button class="btn btn-arxiv btn-research paper-btn"><img src="images/icons/arxiv-logomark-small.svg"> arXiv</button></a>
+
+                                            <a href="https://github.com/Hansxsourse/VRMDiff" target="_blank">
+                                                <button class="btn btn-dark btn-research paper-btn"><i class="bi bi-github"></i> Code</button></a> -->
+
+                                            <a href="https://wbcdcompetition.github.io/" target="_blank">
+                                                <button class="btn btn-primary btn-research paper-btn"><i class="bi bi-globe-americas"></i> Website</button></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="experience">
+                    <div class="mb-5">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0">Research Experience</h4>
+                            <button class="btn btn-light btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp" aria-expanded="false" aria-controls="collapseExp">
+                                <i class="bi bi-arrows-collapse"></i>
+                            </button>
+                        </div>
+
+                        <div class="collapse show" id="collapseExp">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">TARS Robotics</h5>
+                                    <p class="card-text">
+                                        <small class="text-body-secondary">Jan 2025 - Present</small>
+                                        <small class="text-body-secondary"> · Research Engineer</small>
+                                    </p>
+                                    <p class="card-text">
+                                        Research Area: Human-centric Embodied AI; Foundation Models for Robotics; Manipulation. <br>
+                                        Supervisors: <a href="https://wenchaoding.github.io/personal/index.html" target="_blank">Prof. Wenchao Ding</a> & <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm" target="_blank">Prof. Yilun Chen</a>
+                                    </p>
+                                    <img src="images/experience-logos/tars.png" alt="tars_logo" class="school-logo">
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">AIR Innovation Center, Tsinghua University</h5>
+                                    <p class="card-text">
+                                        <small class="text-body-secondary">Jan 2025 - Present</small>
+                                        <small class="text-body-secondary"> · Research Assistant</small>
+                                    </p>
+                                    <p class="card-text">
+                                        Research Area: Robotic Manipulation; Visual Representation for Robotics; Zero-shot 3D Reasoning.<br>
+                                        Supervisors: <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm" target="_blank">Prof. Yilun Chen</a>
+                                    </p>
+                                    <img src="images/logo/adobe_logo.svg" alt="Adobe_logo" class="school-logo">
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lightillusions, HKUST</h5>
+                                    <p class="card-text">
+                                        <small class="text-body-secondary">April 2024 - Oct 2024</small>
+                                        <small class="text-body-secondary"> · Research Intern</small>
+                                    </p>
+                                    <p class="card-text">
+                                        Research Area: Robotic Manipulation <br>
+                                        Supervisors: <a href="https://www.xxlong.site/" target="_blank">Prof. Xiaoxiao Long</a> & <a href="https://ece.hkust.edu.hk/pingtan" target="_blank">Prof. Ping Tan</a>
+                                    <img src="images/experience-logos/lightillusion_logo.png" alt="Adobe_logo" class="school-logo">
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Institute for AI Industry Research (AIR), Tsinghua University</h5>
+                                    <p class="card-text">
+                                        <small class="text-body-secondary">Aug 2022 - Dec 2024</small>
+                                        <small class="text-body-secondary"> · Research Intern & Research Assistant</small>
+                                    </p>
+                                    <p class="card-text">
+                                        Research Area: 3D Scene Understanding; Visual Reasoning; Anomaly Detection <br>
+                                        Supervisor: <a href="https://sites.google.com/view/fromandto" target="_blank">Prof. Hao Zhao</a> & <a href="https://www.shanghangzhang.com/" target="_blank">Prof. Shanghang Zhang</a>
+                                    </p>
+                                    <img src="images/experience-logos/AIR.png" alt="UCM_logo" class="school-logo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0">Education</h4>
+                            <button class="btn btn-light btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp2" aria-expanded="false" aria-controls="collapseExp2">
+                                <i class="bi bi-arrows-collapse"></i>
+                            </button>
+                        </div>
+                        <div class="collapse show" id="collapseExp2">
+                            <!-- <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Clemson University</h5>
+                                    <p class="card-text">
+                                        <small class="text-body-secondary">Jan 2026 - Present</small>
+                                        <small class="text-body-secondary"> · PhD</small>
+                                    </p>
+                                    <p class="card-text">
+                                        Research Area: Robotics <br>
+                                        Supervisors: <a href="https://ics.uci.edu/~xhx/" target="_blank"><u>Prof. Xiaohui Xie</u></a> & <a href="https://acberg.com/" target="_blank"><u>Prof. Alexander C. Berg</u></a>
+                                    </p>
+                                    <img src="images/experience-logos/UCI_logo.svg" alt="UCI_logo" class="school-logo">
+                                </div>
+                            </div> -->
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Institute of Automation, Chinese Academy of Sciences</h5>
+                                    <p class="card-text">
+                                        <small class="text-body-secondary">Feb 2022 - Aug 2022</small>
+                                        <small class="text-body-secondary"> · Visiting Student</small>
+                                    </p>
+                                    <p class="card-text">
+                                        Research Area: Computer Vision & Machine Learning <br>
+                                        Final Year: Complete Bachelor Thesis and conduct a research project.
+                                    </p>
+                                    <img src="images/experience-logos/IA.png" alt="UCM_logo" class="school-logo">
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beijing University of Civil Engineering and Architecture</h5>
+                                    <p class="card-text">
+                                        <small class="text-body-secondary">Sep 2018 - Jun 2022</small>
+                                        <small class="text-body-secondary"> · Undergraduate</small>
+                                    </p>
+                                    <p class="card-text">
+                                        B.Eng. in Mechatronics Engineering <br>
+                                        <!-- GPA: 91.02 / 100 (ranked 1 / 73 in year-2, 3 and 4) <br> -->
+                                        Graduated with <u>Best Bachelor Thesis Award</u>
+                                    </p>
+                                    <img src="images/experience-logos/bucea_logo.png" alt="UCM_logo" class="school-logo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="misc">
+
+                    <div class="mb-5">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0">Honors & Awards</h4>
+                        </div>
+                        <p class="hon">
+                            [2025] <b>Champion Award (1st place)</b>, IEEE ICRA 2025 What Bimanuals Can Do (WBCD) Challenge in Table Services Track.
+                        </p>
+                        <p class="hon">
+                            [2022] <b>Best Bachelor Thesis Award</b>, Beijing Education Commission (top 1% in 130,000 students).
+                        </p>
+                        <p class="hon">
+                            [2022] <b>Silver Award</b>, Beijing Challenge Cup: Entrepreneurial Plan Competition in AI System Track (Rank.2).
+                        </p>
+                    </div>
+
+                    <div class="mb-5">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0">Academic Services</h4>
+                        </div>
+
+                        <p class="hon">
+                            <b>Conference Review:</b> NeurIPS’23, CVPR’24, ICRA'24, ICLR'25.<br>
+                        </p>
+
+                        <p class="hon">
+                            <b>Journal Review:</b> IJCV.
+                        </p>
+                    </div>
+<!-- 
+                    <div class="mb-5">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0">Talk</h4>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <img src="images/talk-img/" alt="ECCV Oral" class="talk-logo">
+                                <h5 class="card-title">ECCV 24 Oral Presentation</h5>
+                                <p class="card-text">
+                                    <small class="text-body-secondary">10/03/2024</small>
+                                    <small class="text-body-secondary"> · Milan, Italy</small>
+                                </p>
+                                <p class="card-text">
+                                    Title: blahblah
+                                </p>
+                                <a href="https://www.youtube.com/watch?v=LgXsvBZOPxA" target="_blank" class="talk-link-youtube">
+                                    <button class="btn talk-btn talk-btn-youtube"><i class="fa-brands fa-youtube"></i></button></a>
+
+                                <a href="https://www.bilibili.com/video/BV1jH2nYGE7P/?share_source=copy_web&vd_source=3815173bb1e60d5201bc8177bc980933" target="_blank" class="talk-link-bilibili">
+                                    <button class="btn talk-btn talk-btn-bilibili"><i class="fa-brands fa-bilibili"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-5">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h4 class="m-0">Teaching</h4>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">VIST 173: Foundations of Visual Computing</h5>
+                                <p class="card-text">
+                                    <small class="text-body-secondary">Spring 2025 </small>
+                                    <small class="text-body-secondary"> · Teaching Assistant</small>
+                                </p>
+                                <p class="card-text">
+                                    Class Schedule: <br>
+                                    Fri 01:50 - 03:30 pm @ ARCC 307
+                                </p>
+                                <img src="images/experience-logos/TAMU_logo.png" alt="TAMU_logo" class="school-logo">
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">VIST 272: Visual Computing</h5>
+                                <p class="card-text">
+                                    <small class="text-body-secondary">Fall 2024 </small>
+                                    <small class="text-body-secondary"> · Teaching Assistant</small>
+                                </p>
+                                <p class="card-text">
+                                    Class Schedule: <br>
+                                    Mon / Wed 6:00 - 6:50 pm @ ARCC 307 <br>
+                                    Fri 09:10 - 10:50 am @ LAAH 242
+                                </p>
+                                <img src="images/experience-logos/TAMU_logo.png" alt="TAMU_logo" class="school-logo">
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+            <div class="footer col-md-12 px-4 py-3">
+                <div class="cilix-info">
+                    Copyright &copy;
+                    <span id="copyright-year"></span>
+                    Weize Li - 2025
+                </div>
+                <div class="update">
+                    Last updated: 2025-08-24
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var btnCollapse = document.getElementsByClassName("btn-collapse");
+        for (var i = 0; i < btnCollapse.length; i++) {
+            btnCollapse[i].addEventListener("click", function() {
+                var icon = this.children[0].classList;
+                if (icon.contains("bi-arrows-collapse")) {
+                    icon.remove("bi-arrows-collapse");
+                    icon.add("bi-arrows-expand");
+                } else {
+                    icon.remove("bi-arrows-expand");
+                    icon.add("bi-arrows-collapse");
+                }                
+            });
         }
-      }
-    }
 
-    function activate(ele){
-      $hashList.removeClass('is-active');
-      ele.addClass('is-active');
-    }
-
-    function debounce(fn, delay) {
-      var timeout = null;
-      return function () {
-        var args = arguments;
-        var context = this;
-        if (!timeout) {
-          timeout = setTimeout(function () {
-            timeout = 0;
-            return fn.apply(context, args);
-          }, delay);
+        let menuOpen = false;
+        function toggleMenu() {
+            const navbarMenu = document.getElementById('navbarMenu');
+            menuOpen = !menuOpen;
+            if (menuOpen) {
+                navbarMenu.classList.add('mobile-show');
+            } else {
+                navbarMenu.classList.remove('mobile-show');
+            }
         }
-      };
-    }
 
+        window.onload = function() {
+            var currentYear = new Date().getFullYear();
+            var copyrightElement = document.querySelector('#copyright-year');
+            copyrightElement.innerHTML = currentYear;
+        }
 
+        function openInfoBanner() {
+            var infoBanner = document.getElementById('info-banner');
+            infoBanner.style.display = 'block';
+            infoBanner.style.visibility = 'visible';
+        }
 
-  </script>
-
-
+        function toggleInfoBanner() {
+            var infoBanner = document.getElementById('info-banner');
+            infoBanner.style.display = 'none';
+            infoBanner.style.visibility = 'hidden';
+        }
+    </script>
 </body>
-
 </html>
