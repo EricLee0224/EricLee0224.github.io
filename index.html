@@ -1,9 +1,9 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <title>Weize Li</title>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Weize Li">
   <meta name="description"
@@ -25,6 +25,7 @@
   <meta name="twitter:image" content="https://ericlee0224.github.io/assets/weize_animation.jpg">
 
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
   <link rel="preload" as="image" href="assets/weize_animation.jpg" fetchpriority="high">
@@ -32,648 +33,673 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
     rel="stylesheet">
 </head>
 
-<body id="body">
+<body>
 
   <div id="main">
-    <div id="intro">
-      <div id="intro-text">
+    <main>
+      <header id="intro">
         <h1>Weize Li</h1>
-        <div id="more-bio">
+        <div id="intro-text">
+          <div id="more-bio">
+            <p>
+              I am an incoming Ph.D. student at the School of Computing,
+              <span class="nus-name">National University of Singapore</span>,
+              advised by <a href="https://yanshuicheng.info/" target="_blank" rel="noopener noreferrer">Prof. Shuicheng Yan</a>.
+              And I am also an AI Research Engineer on the founding team of a stealth-mode robotics startup, where I work on
+              full-stack robot learning for manipulation, touching the whole system of the data collection,
+              model/policy post-training, and inference deployment.
+            </p>
+            <p>
+              Previously, I was Research Engineer at <a href="https://wiyh.tars-ai.com/" target="_blank" rel="noopener noreferrer">TARS
+                Robotics</a>, and spent several years as a Research Assistant/Intern
+              at <a href="https://www.discover-lab.com/" target="_blank" rel="noopener noreferrer">AIR, Tsinghua University</a> and <a
+                href="https://hkust.edu.hk/" target="_blank" rel="noopener noreferrer">HKUST</a>, working with exceptional mentors to
+              dive into 3D vision and graphics.
+            </p>
+          </div>
           <p>
-            I am an incoming Ph.D. student at the School of Computing, National University of Singapore, 
-            advised by <a href="https://yanshuicheng.info/" target="_blank">Prof. Shuicheng Yan</a>. 
-            And I am also an AI Research Engineer on the founding team of a stealth-mode robotics startup, where I work on
-            full-stack robot learning for manipulation, touching the whole system of the data collection,
-            model/policy post-training, and inference deployment.
-          </p>
-          <p>
-            Previously, I was Research Engineer at <a href="https://wiyh.tars-ai.com/" target="_blank">TARS
-              Robotics</a>, and spent several years as a Research Assistant/Intern
-            at <a href="https://www.discover-lab.com/" target="_blank">AIR, Tsinghua University</a> and <a
-              href="https://hkust.edu.hk/" target="_blank">HKUST</a>, working with exceptional mentors to
-            dive into 3D vision and graphics.
-            And I am broadly interested in robotics, 3D vision, and multimodal learning, with a focus on
-            foundation models for robotics, bimanual manipulation, and human-centric cross-embodiment transfer.
+            <span class="social-links">
+              <a href="mailto:liweize0224@gmail.com" title="Email" aria-label="Email">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </a>
+              <a href="files/cv.pdf" title="CV" aria-label="CV">
+                <i class="ai ai-cv" aria-hidden="true"></i>
+              </a>
+              <a href="https://scholar.google.com/citations?user=CyPiUucAAAAJ&amp;hl=en" title="Google Scholar"
+                aria-label="Google Scholar">
+                <i class="ai ai-google-scholar" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/EricLee0224" title="GitHub" aria-label="GitHub">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/weize-li-356459250/" title="LinkedIn" aria-label="LinkedIn">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="https://x.com/WeizeLi24" title="X" aria-label="X">
+                <i class="fab fa-x-twitter" aria-hidden="true"></i>
+              </a>
+            </span>
           </p>
         </div>
-        <p>
-          <span class="social-links">
-            <a href="mailto:liweize0224@gmail.com" title="Email" aria-label="Email">
-              <i class="fas fa-envelope"></i>
+        <div id="intro-image">
+          <img src="assets/weize_animation.jpg" alt="Weize Li" width="192" height="192"
+            fetchpriority="high" decoding="async">
+        </div>
+      </header>
+
+      <div class="content">
+
+        <h2 class="section-heading">News</h2>
+        <div class="news-box">
+          <div class="list-item news">
+            <time class="date" datetime="2026-05">05.2026</time>
+            <span>I co-organized the <a href="https://wbcdcompetition.github.io/" target="_blank" rel="noopener noreferrer">IEEE ICRA 2026 WBCD Challenge</a> in Vienna, Silicon Valley, and Shanghai.</span>
+          </div>
+          <div class="list-item news">
+            <time class="date" datetime="2026-02">02.2026</time>
+            <span>Our paper <a href="https://arxiv.org/abs/2604.21914" target="_blank" rel="noopener noreferrer">VistaBot</a> was accepted to ICRA 2026; <a href="https://arxiv.org/abs/2512.04939" target="_blank" rel="noopener noreferrer">LiteVGGT</a> was accepted to CVPR 2026.</span>
+          </div>
+          <div class="list-item news">
+            <time class="date" datetime="2025-10">10.2025</time>
+            <span>Our paper <a href="https://dl.acm.org/doi/abs/10.1145/3746267.3762173" target="_blank" rel="noopener noreferrer">RoboGEM</a> won the <b>Best Paper Award</b> at ACM MM RoboSoft'25 Workshop.</span>
+          </div>
+          <div class="list-item news">
+            <time class="date" datetime="2025-05">05.2025</time>
+            <span>We won the Champion Award at the <a href="https://wbcdcompetition.github.io/2025/index.html" target="_blank" rel="noopener noreferrer">IEEE ICRA 2025 WBCD Challenge</a> (Table Services Track).</span>
+          </div>
+        </div>
+
+        <h2 class="section-heading">Publications</h2>
+        <p class="publication-note">* equal contribution</p>
+
+        <!-- Without JavaScript, all publications and year labels remain visible. -->
+        <div id="pub-filters" class="pub-filters" role="group" aria-label="Filter publications" hidden>
+          <button type="button" class="pub-filter-btn" data-filter="selected"
+            aria-pressed="false" aria-controls="publication-list">Selected</button>
+          <button type="button" class="pub-filter-btn" data-filter="all"
+            aria-pressed="true" aria-controls="publication-list">All</button>
+        </div>
+        <p id="pub-filter-status" class="visually-hidden" role="status"></p>
+
+        <!-- One switch per paper: data-selected="true" includes it in Selected; "false" shows it only in All. -->
+        <!-- Groups are automatically sorted by data-year (newest first); keep source order descending for no-JS readers. -->
+        <div id="publication-list" class="pub-timeline" data-filter="all">
+
+          <section class="pub-year" data-year="2026" aria-labelledby="publications-2026">
+            <h3 class="pub-year-label" id="publications-2026">2026</h3>
+            <div class="pub-year-list">
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://openphoenix-team.github.io/GIFT-pages/" class="thumbnail">
+                  <img src="assets/publications/gift_framework.png" alt="GIFT" width="2600" height="1677"
+                    loading="lazy" decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://openphoenix-team.github.io/GIFT-pages/">GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation</a></h4>
+                  <p>
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a><span class="cofirst-star">*</span>,
+                    <a href="https://getterupper.github.io/">Xiang Li</a><span class="cofirst-star">*</span>,
+                    <a href="https://openreview.net/profile?id=%7ESongen_Gu2">Songen Gu</a><span class="cofirst-star">*</span>,
+                    <a href="https://mrsecant.github.io/">Yuhang Zheng</a><span class="cofirst-star">*</span>,
+                    Shuai Tian,
+                    <b>Weize Li</b>,
+                    Linbo Wang,
+                    Chaoyue Li,
+                    Qichao Zhang,
+                    Haoran Li,
+                    Zhongpu Xia,
+                    Ya-Qin Zhang,
+                    <a href="https://yanshuicheng.info/">Shuicheng Yan</a>,
+                    Dongbin Zhao<br>
+                    <i>Preprint</i>, 2026<br>
+                    <a class="pub-link" href="https://openphoenix-team.github.io/GIFT-pages/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://arxiv.org/abs/2609.04193">Paper</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://getterupper.github.io/LAWA/" class="thumbnail">
+                  <img src="assets/publications/lawa_teaser.png" alt="LAWA" width="3317" height="1276"
+                    loading="lazy" decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://getterupper.github.io/LAWA/">Latent Action as Intention Enables Efficient Future Imagination for World Action Models</a></h4>
+                  <p>
+                    <a href="https://getterupper.github.io/">Xiang Li</a><span class="cofirst-star">*</span>,
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a><span class="cofirst-star">*</span>,
+                    <a href="https://openreview.net/profile?id=%7ESongen_Gu2">Songen Gu</a><span class="cofirst-star">*</span>,
+                    Huailiang Ma<span class="cofirst-star">*</span>,
+                    Feng Yu,
+                    <a href="https://mrsecant.github.io/">Yuhang Zheng</a>,
+                    Xian Nie,
+                    Shanshuai Yuan,
+                    Yujie Zang,
+                    <b>Weize Li</b>,
+                    Shuai Tian,
+                    Moyang Liu,
+                    Ya-Qin Zhang,
+                    <a href="https://wenchaoding.github.io/">Wenchao Ding</a><br>
+                    <i>Preprint</i>, 2026<br>
+                    <a class="pub-link" href="https://getterupper.github.io/LAWA/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://arxiv.org/abs/2608.24882">Paper</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="true">
+                <a href="https://arxiv.org/pdf/2607.02503" class="thumbnail">
+                  <img src="assets/publications/VTWAM.png" alt="VT-WAM" width="200" height="130"
+                    loading="lazy" decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://arxiv.org/pdf/2607.02503">VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation</a></h4>
+                  <p>
+                    Shuai Tian,
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a>,
+                    <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&amp;hl=en">Yuhang Zheng</a>,
+                    <a href="https://scholar.google.com/citations?user=W-msX90AAAAJ&amp;hl=en">Songen Gu</a>,
+                    Yujie Zang,
+                    Yuxing Qin,
+                    <b>Weize Li</b>,
+                    Haoran Li,
+                    <a href="https://wenchaoding.github.io/">Wenchao Ding</a>,
+                    Dongbin Zhao<br>
+                    <i>Preprint</i>, 2026<br>
+                    <a class="pub-link" href="https://arxiv.org/pdf/2607.02503">Paper</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="true">
+                <a href="https://arxiv.org/abs/2604.21914" class="thumbnail">
+                  <img src="assets/publications/vistabot_pipeline.png" alt="VistaBot" width="200" height="130"
+                    loading="lazy" decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://arxiv.org/abs/2604.21914">VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis</a></h4>
+                  <p>
+                    <a href="https://scholar.google.com/citations?user=W-msX90AAAAJ&amp;hl=en">Songen Gu</a><span
+                      class="cofirst-star">*</span>,
+                    <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&amp;hl=en">Yuhang Zheng</a><span
+                      class="cofirst-star">*</span>,
+                    <b>Weize Li</b>,
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a>,
+                    Yating Feng,
+                    <a href="https://getterupper.github.io/">Xiang Li</a>,
+                    <a href="https://philipflyg.github.io/">Pengfei Li</a>,
+                    <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
+                    <a href="https://wenchaoding.github.io/">Wenchao Ding</a><br>
+                    <i>ICRA 2026</i><br>
+                    <a class="pub-link" href="https://arxiv.org/abs/2604.21914">Paper</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://arxiv.org/abs/2604.20834" class="thumbnail">
+                  <img src="assets/publications/pokevla.png" alt="PokéVLA" width="200" height="130" loading="lazy"
+                    decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://arxiv.org/abs/2604.20834">PokéVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge
+                    Guidance</a></h4>
+                  <p>
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a>,
+                    Xiang Li,
+                    <a href="https://scholar.google.com/citations?user=W-msX90AAAAJ&amp;hl=en">Songen Gu</a>,
+                    Yuhang Zheng,
+                    Shuai Tian,
+                    <b>Weize Li</b>,
+                    Linbo Wang,
+                    Senyu Fei,
+                    Pengfei Li,
+                    Yinfeng Gao,
+                    Zebin Xing,
+                    <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
+                    Qichao Zhang,
+                    Haoran Li,
+                    <a href="https://wenchaoding.github.io/">Wenchao Ding</a><br>
+                    <i>Preprint</i>, 2026<br>
+                    <a class="pub-link" href="https://arxiv.org/abs/2604.20834">Paper</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="true">
+                <a href="https://mrsecant.github.io/OmniVTA/" class="thumbnail">
+                  <img src="assets/publications/OmniVTA.png" alt="OmniVTA" width="200" height="130" loading="lazy"
+                    decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://mrsecant.github.io/OmniVTA/">OmniVTA: Visuo-Tactile World Modeling for Contact-Rich
+                      Robotic Manipulation</a></h4>
+                  <p>
+                    <a href="https://mrsecant.github.io/">Yuhang Zheng</a>,
+                    <a href="https://scholar.google.com/citations?user=W-msX90AAAAJ&amp;hl=en">Songen Gu</a>,
+                    <b>Weize Li</b>,
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a>,
+                    Yujie Zang,
+                    Shuai Tian,
+                    <a href="https://getterupper.github.io/">Xiang Li</a>,
+                    <a href="https://cehao1.github.io/">Ce Hao</a>,
+                    <a href="https://chengaopro.github.io/">Chen Gao</a>,
+                    Si Liu,
+                    Haoran Li,
+                    <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
+                    <a href="https://yanshuicheng.info/">Shuicheng Yan</a>,
+                    <a href="https://wenchaoding.github.io/">Wenchao Ding</a><br>
+                    <i>Preprint</i>, 2026
+                    <span class="oral"> · EAI Top10 Dataset Award</span><br>
+                    <a class="pub-link"
+                      href="https://mrsecant.github.io/OmniVTA/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://arxiv.org/pdf/2603.19201">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://huggingface.co/datasets/tars-robotics/OmniVitac">Dataset</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="true">
+                <a href="https://wiyh.tars-ai.com/" class="thumbnail">
+                  <img src="assets/publications/wiyh_corl_teaser.png" alt="World in Your Hands" width="200" height="130"
+                    loading="lazy" decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://wiyh.tars-ai.com/">World in Your Hands: A Large-Scale and Open-source Ecosystem for
+                      Learning Human-centric Manipulation in the Wild</a></h4>
+                  <p>
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a><span
+                      class="cofirst-star">*</span>,
+                    Jichao Peng<span class="cofirst-star">*</span>,
+                    <b>Weize Li</b><span class="cofirst-star">*</span>,
+                    <a href="https://mrsecant.github.io/">Yuhang Zheng</a>,
+                    <a href="https://getterupper.github.io/">Xiang Li</a>,
+                    Yujie Jin, Julong Wei, Guanhua Zhang, Ruiling Zheng, Ming Cao,
+                    Songen Gu, Zhenhong Zou, Kaige Li, Ke Wu, Mingmin Yang, Jiahao Liu,
+                    Pengfei Li, Hengjie Si, Feiyu Zhu, Wang Fu, Likun Wang, Ruiwen Yao,
+                    <a href="https://zjru.github.io/">Jieru Zhao</a>,
+                    <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
+                    <a href="https://wenchaoding.github.io/">Wenchao Ding</a><br>
+                    <i>CoRL</i>, 2026<br>
+                    <a class="pub-link" href="https://wiyh.tars-ai.com/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://arxiv.org/abs/2512.24310">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://github.com/tars-robotics/World-In-Your-Hands">Code</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://garlicba.github.io/LiteVGGT/" class="thumbnail">
+                  <img src="assets/publications/litevggt_teaser.png" alt="LiteVGGT" width="200" height="130"
+                    loading="lazy" decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://garlicba.github.io/LiteVGGT/">LiteVGGT: Boosting Vanilla VGGT via Geometry-aware
+                      Cached Token Merging</a></h4>
+                  <p>
+                    <a href="https://garlicba.github.io/">Zhijian Shu</a>,
+                    <a href="https://clinplayer.github.io/">Cheng Lin</a>,
+                    <a href="https://github.com/xbillowy">Tao Xie</a>,
+                    <a href="https://yvanyin.net/">Wei Yin</a>,
+                    <a href="https://github.com/fanerlight">Ben Li</a>,
+                    <a href="https://openreview.net/profile?id=~Zhiyuan_Pu1">Zhiyuan Pu</a>,
+                    <b>Weize Li</b>,
+                    <a href="https://yoyo000.github.io/">Yao Yao</a>,
+                    <a href="https://openreview.net/profile?id=~Xun_Cao1">Xun Cao</a>,
+                    <a href="https://xy-guo.github.io/">Xiaoyang Guo</a>,
+                    <a href="https://xxlong0.github.io/">Xiao-xiao Long</a><br>
+                    <i>CVPR 2026</i><br>
+                    <a class="pub-link"
+                      href="https://garlicba.github.io/LiteVGGT/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://arxiv.org/abs/2512.04939">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://github.com/GarlicBa/LiteVGGT-repo">Code</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://ieeexplore.ieee.org/abstract/document/11696016/" class="thumbnail">
+                  <img src="assets/publications/driving_scaling_teaser.jpg" alt="Data Scaling Laws for Autonomous Driving" width="1485" height="1096"
+                    loading="lazy" decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://ieeexplore.ieee.org/abstract/document/11696016/">Data Scaling Laws for Imitation Learning-Based End-to-End Autonomous Driving</a></h4>
+                  <p>
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a>,
+                    Pengxuan Yang,
+                    Zhongpu Xia,
+                    Qichao Zhang,
+                    <a href="https://mrsecant.github.io/">Yuhang Zheng</a>,
+                    Ben Lu,
+                    Teng Zhang,
+                    Chao Han,
+                    <b>Weize Li</b>,
+                    <a href="https://openreview.net/profile?id=%7ESongen_Gu2">Songen Gu</a>,
+                    Xianpeng Lang,
+                    Xiangyuan Lan,
+                    Dongbin Zhao<br>
+                    <i>ICRA</i>, 2026<br>
+                    <a class="pub-link" href="https://ieeexplore.ieee.org/abstract/document/11696016/">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://arxiv.org/abs/2412.02689">arXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://github.com/ucaszyp/Driving-Scaling-Law">Repository</a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="pub-year" data-year="2025" aria-labelledby="publications-2025">
+            <h3 class="pub-year-label" id="publications-2025">2025</h3>
+            <div class="pub-year-list">
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://arxiv.org/abs/2511.21887" class="thumbnail">
+                  <img src="assets/publications/uniart_pipeline.png" alt="UniArt" width="200" height="130" loading="lazy"
+                    decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://arxiv.org/abs/2511.21887">UniArt: Unified 3D Representation for Generating 3D
+                      Articulated Objects with Open-Set Articulation</a></h4>
+                  <p>
+                    <a href="https://scholar.google.com/citations?user=uUd5v2cAAAAJ&amp;hl=en">Bu Jin</a>,
+                    <b>Weize Li</b>,
+                    <a href="https://scholar.google.com/citations?user=W-msX90AAAAJ&amp;hl=en">Songen Gu</a>,
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a>,
+                    <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&amp;hl=en">Yuhang Zheng</a>,
+                    Zhengyi Zhou,
+                    <a href="https://yoyo000.github.io/">Yao Yao</a><br>
+                    <i>In Submission</i>, 2025<br>
+                    <a class="pub-link" href="https://arxiv.org/abs/2511.21887">Paper</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="true">
+                <a href="https://wbcdcompetition.github.io/2025/index.html" class="thumbnail">
+                  <img src="assets/publications/wbcd_final.svg" alt="WBCD" width="200" height="130" loading="lazy"
+                    decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://wbcdcompetition.github.io/2025/index.html">Taming VR Teleoperation and Learning
+                      from Demonstration for Multi-Task Bimanual Table Service Manipulation</a></h4>
+                  <p>
+                    <b>Weize Li</b>,
+                    <a href="https://absrat.com/">Zhengxiao Han</a>,
+                    <a href="https://davidlxu.github.io/">Lixin Xu</a>,
+                    <a href="https://changerc77.github.io/">Xiangyu Chen</a>,
+                    <a href="https://harrisonbounds.github.io/">Harrison Bounds</a>,
+                    Chenrui Zhang,
+                    <a href="https://scholar.google.com/citations?user=RYKMFp4AAAAJ&amp;hl=en">Yifan Xu</a><br>
+                    <i>Technical Report</i>, 2025 · IEEE ICRA WBCD 2025 Challenge
+                    <span class="oral"> · 1st Place (Table Service Track)</span><br>
+                    <a class="pub-link"
+                      href="https://wbcdcompetition.github.io/2025/index.html">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://arxiv.org/abs/2508.14542">Paper</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="true">
+                <a href="https://dl.acm.org/doi/abs/10.1145/3746267.3762173" class="thumbnail">
+                  <img src="assets/publications/robogem_teaser.svg" alt="RoboGEM" width="200" height="130" loading="lazy"
+                    decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://dl.acm.org/doi/abs/10.1145/3746267.3762173">RoboGEM: Learning Language-guided
+                      Robotic Manipulation via Generalizable and Efficient Feature Distillation</a></h4>
+                  <p>
+                    <a href="https://www.linkedin.com/in/chunzheng-wang-06a024366/">Chunzheng Wang</a>,
+                    <a href="https://mrsecant.github.io/">Yuhang Zheng</a>,
+                    <a href="https://changerc77.github.io/">Xiangyu Chen</a>,
+                    <b>Weize Li</b>,
+                    <a href="https://openreview.net/profile?id=%7ESongen_Gu2">Songen Gu</a>,
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=zh-CN">Yupeng Zheng</a><br>
+                    <i>ACM MM 2025</i>
+                    <span class="oral"> · Best Paper Award @ RoboSoft'25</span><br>
+                    <a class="pub-link" href="https://dl.acm.org/doi/abs/10.1145/3746267.3762173">Paper</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://arxiv.org/abs/2505.01729" class="thumbnail">
+                  <img src="assets/publications/ppmethod_new.png" alt="PosePilot" width="200" height="130" loading="lazy"
+                    decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://arxiv.org/abs/2505.01729">PosePilot: Steering Camera Pose for Generative World
+                      Models with Self-supervised Depth</a></h4>
+                  <p>
+                    <a href="https://scholar.google.com/citations?user=uUd5v2cAAAAJ&amp;hl=en">Bu Jin</a><span
+                      class="cofirst-star">*</span>,
+                    <b>Weize Li</b><span class="cofirst-star">*</span>,
+                    Baihan Yang,
+                    Zhenxin Zhu,
+                    Junpeng Jiang,
+                    <a href="https://c7w.tech/about/">Huan-ang Gao</a>,
+                    Haiyang Sun,
+                    Kun Zhan,
+                    Hengtong Hu,
+                    Xueyang Zhang,
+                    <a href="https://scholar.google.com/citations?user=Z_QY_VwAAAAJ">Peng Jia</a>,
+                    <a href="https://sites.google.com/view/fromandto">Hao Zhao</a><br>
+                    <i>IROS 2025</i><br>
+                    <a class="pub-link" href="https://arxiv.org/abs/2505.01729">Paper</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://github.com/EricLee0224/awesome-nerf-editing" class="thumbnail">
+                  <img src="assets/publications/survey_teaser_new2.png" alt="Radiance Field Survey" width="200"
+                    height="130" loading="lazy" decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://github.com/EricLee0224/awesome-nerf-editing">Radiance Field-Based 3D Editing: A
+                      Survey</a></h4>
+                  <p>
+                    <b>Weize Li</b><span class="cofirst-star">*</span>,
+                    <a href="https://tianshukuai.github.io/">Tianshu Kuai</a><span class="cofirst-star">*</span>,
+                    <a href="https://c7w.tech/about/">Huan-ang Gao</a>,
+                    <a href="https://xiangyueliu.github.io/">Xiangyue Liu</a>,
+                    <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&amp;hl=en">Yuhang Zheng</a>,
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a>, et al.<br>
+                    <i>In Submission</i>, 2025<br>
+                    <a class="pub-link" href="https://github.com/EricLee0224/awesome-nerf-editing">Awesome List</a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="pub-year" data-year="2024" aria-labelledby="publications-2024">
+            <h3 class="pub-year-label" id="publications-2024">2024</h3>
+            <div class="pub-year-list">
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://jxbbb.github.io/TOD3Cap/" class="thumbnail">
+                  <img src="assets/publications/tod3cap.png" alt="TOD3Cap" width="200" height="130" loading="lazy"
+                    decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://jxbbb.github.io/TOD3Cap/">TOD3Cap: Towards 3D Dense Captioning in Outdoor
+                      Scenes</a></h4>
+                  <p>
+                    <a href="https://scholar.google.com/citations?user=uUd5v2cAAAAJ&amp;hl=en">Bu Jin</a>,
+                    <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&amp;hl=en">Yupeng Zheng</a>,
+                    <a href="https://github.com/Philipflyg">Pengfei Li</a>,
+                    <b>Weize Li</b>,
+                    <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&amp;hl=en">Yuhang Zheng</a>,
+                    Sujie Hu,
+                    <a href="https://liuxinyv.github.io/">Xinyu Liu</a>,
+                    Jinwei Zhu,
+                    <a href="https://scholar.google.com/citations?user=4PXGeaYAAAAJ">Zhijie Yan</a>,
+                    Haiyang Sun,
+                    Kun Zhan,
+                    <a href="https://scholar.google.com/citations?user=Z_QY_VwAAAAJ">Peng Jia</a>,
+                    <a href="https://www.xxlong.site/">Xiaoxiao Long</a>,
+                    <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
+                    <a href="https://sites.google.com/view/fromandto">Hao Zhao</a><br>
+                    <i>ECCV 2024</i><br>
+                    <a class="pub-link" href="https://jxbbb.github.io/TOD3Cap/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://arxiv.org/abs/2403.19589">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://github.com/jxbbb/TOD3Cap">Code</a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="pub-year" data-year="2023" aria-labelledby="publications-2023">
+            <h3 class="pub-year-label" id="publications-2023">2023</h3>
+            <div class="pub-year-list">
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://github.com/EricLee0224/PAD" class="thumbnail">
+                  <img src="assets/publications/pad.png" alt="PAD" width="200" height="130" loading="lazy"
+                    decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://github.com/EricLee0224/PAD">PAD: A Dataset and Benchmark for Pose-agnostic Anomaly
+                      Detection</a></h4>
+                  <p>
+                    <a href="https://scholar.google.com/citations?user=CMYTxUEAAAAJ&amp;hl=en">Qiang Zhou</a><span
+                      class="cofirst-star">*</span>,
+                    <b>Weize Li</b><span class="cofirst-star">*</span>,
+                    <a href="https://jianglh-whu.github.io/">Lihan Jiang</a>,
+                    <a href="https://github.com/Cross-ZBuild">Guoliang Wang</a>,
+                    <a href="https://air.tsinghua.edu.cn/en/info/1046/1196.htm">Guyue Zhou</a>,
+                    <a href="https://www.shanghangzhang.com/">Shanghang Zhang</a>,
+                    <a href="https://sites.google.com/view/fromandto">Hao Zhao</a><br>
+                    <i>NeurIPS 2023</i><br>
+                    <a class="pub-link" href="https://arxiv.org/abs/2310.07716">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a class="pub-link" href="https://github.com/EricLee0224/PAD">Code</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="list-item publication" data-selected="false">
+                <a href="https://link.springer.com/article/10.1007/s00521-023-08571-4" class="thumbnail">
+                  <img src="assets/publications/irflmdnn.png" alt="IRFLMDNN" width="200" height="130" loading="lazy"
+                    decoding="async">
+                </a>
+                <div class="project-description">
+                  <h4><a href="https://link.springer.com/article/10.1007/s00521-023-08571-4">IRFLMDNN: Hybrid Model for
+                      PMU Data Anomaly Detection and Re-filling</a></h4>
+                  <p>
+                    Miao Yu,
+                    Chenyu Yang<span class="cofirst-star">*</span>,
+                    <b>Weize Li</b><span class="cofirst-star">*</span>,
+                    Weijie Du,
+                    Jinglin Li<br>
+                    <i>Neural Computing and Applications</i>, 2023<br>
+                    <a class="pub-link" href="https://link.springer.com/article/10.1007/s00521-023-08571-4">Paper</a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+
+        <h2 class="section-heading">Experience</h2>
+        <div class="experience-grid">
+
+          <div class="list-item experience">
+            <a href="https://wiyh.tars-ai.com/" target="_blank" rel="noopener noreferrer" class="exp-logo">
+              <img src="assets/TARS_BLK_LOGO.png" alt="TARS" loading="lazy" decoding="async">
             </a>
-            <a href="files/cv.pdf" title="CV" aria-label="CV">
-              <i class="ai ai-cv"></i>
-            </a>
-            <a href="https://scholar.google.com/citations?user=CyPiUucAAAAJ&hl=en" title="Google Scholar"
-              aria-label="Google Scholar">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-            <a href="https://github.com/EricLee0224" title="Github" aria-label="Github">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/weize-li-356459250/" title="LinkedIn" aria-label="LinkedIn">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://x.com/WeizeLi24" title="X" aria-label="X">
-              <i class="fab fa-x-twitter"></i>
-            </a>
-          </span>
+            <div class="exp-description">
+              <h3><a href="https://wiyh.tars-ai.com/" target="_blank" rel="noopener noreferrer">TARS Robotics</a> | AWE Research Team</h3>
+              <p>Research Engineer</p>
+              <p class="exp-pi">
+                Mentors:
+                <a href="https://wenchaoding.github.io/personal/index.html">Prof. Wenchao Ding</a>,
+                <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Prof. Yilun Chen</a>
+              </p>
+              <p>Mar 2025 – June 2026</p>
+            </div>
+          </div>
+
+          <div class="list-item experience">
+            <div class="exp-logo">
+              <img src="assets/AIRIC_logo.jpg" alt="AIRIC" loading="lazy" decoding="async">
+            </div>
+            <div class="exp-description">
+              <h3>Tsinghua University | AIR Innovation Center</h3>
+              <p>Research Assistant</p>
+              <p class="exp-pi">
+                Mentor:
+                <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Prof. Yilun Chen</a>
+              </p>
+              <p>Jan 2025 – May 2025</p>
+            </div>
+          </div>
+
+          <div class="list-item experience">
+            <div class="exp-logo">
+              <img src="assets/HKUST_Logo.png" alt="HKUST" loading="lazy" decoding="async">
+            </div>
+            <div class="exp-description">
+              <h3>HKUST | LightIllusions</h3>
+              <p>Research Intern</p>
+              <p class="exp-pi">
+                Mentors:
+                <a href="https://www.xxlong.site/">Prof. Xiao-xiao Long</a>,
+                <a href="https://ece.hkust.edu.hk/pingtan">Prof. Ping Tan</a>
+              </p>
+              <p>Apr 2024 – Oct 2024</p>
+            </div>
+          </div>
+
+          <div class="list-item experience">
+            <div class="exp-logo">
+              <img src="assets/AIR_logo.png" alt="AIR" loading="lazy" decoding="async">
+            </div>
+            <div class="exp-description">
+              <h3>Tsinghua University | AIR</h3>
+              <p>Research Intern</p>
+              <p class="exp-pi">
+                Mentors:
+                <a href="https://sites.google.com/view/fromandto">Prof. Hao Zhao</a>,
+                <a href="https://pku-hmi-lab.github.io/HMI-Web/leader.html">Prof. Shanghang Zhang</a>,
+                <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Prof. Yilun Chen</a>
+              </p>
+              <p>Aug 2022 – Dec 2024</p>
+            </div>
+          </div>
+
+        </div>
+
+        <h2 class="section-heading">Service</h2>
+        <p class="service-item">Conference Reviewer: NeurIPS'23, CVPR'24, ICRA'24, ICLR'25, IROS'25, CVPR'26</p>
+        <p class="service-item">Journal Reviewer: IJCV, R-AL</p>
+        <p class="service-item">Organizer: 2nd What Bimanuals Can Do (WBCD) Competition, IEEE ICRA 2026</p>
+
+        <h2 class="section-heading">Misc</h2>
+        <p class="service-item">
+          Outside of research, I enjoy photography, fitness, and ball sports (football, basketball, tennis, badminton).
+          I am also a registered referee with the Chinese Football Association.
         </p>
-      </div>
-      <div id="intro-image">
-        <img src="assets/weize_animation.jpg" class="profile-img active" alt="Weize Li" width="192" height="192"
-          fetchpriority="high" decoding="async">
-      </div>
-    </div>
-
-    <div class="content">
-
-      <h2 class="section-heading">News</h2>
-      <div class="news-box">
-        <div class="list-item news" data-category="news">
-          <p class="date">05.2026</p>
-          <span>I co-organized the <a href="https://wbcdcompetition.github.io/" target="_blank">IEEE ICRA 2026 WBCD Challenge</a> in Vienna, Silicon Valley, and Shanghai.</span>
-        </div>
-        <div class="list-item news" data-category="news">
-          <p class="date">02.2026</p>
-          <span>Our paper <a href="https://arxiv.org/abs/2604.21914" target="_blank">VistaBot</a> was accepted to ICRA 2026; <a href="https://arxiv.org/abs/2512.04939" target="_blank">LiteVGGT</a> was accepted to CVPR 2026.</span>
-        </div>
-        <div class="list-item news" data-category="news">
-          <p class="date">10.2025</p>
-          <span>Our paper <a href="https://dl.acm.org/doi/abs/10.1145/3746267.3762173" target="_blank">RoboGEM</a> won the <b>Best Paper Award</b> at ACM MM RoboSoft'25 Workshop.</span>
-        </div>
-        <div class="list-item news" data-category="news">
-          <p class="date">05.2025</p>
-          <span>We won the Champion Award at the <a href="https://wbcdcompetition.github.io/2025/index.html" target="_blank">IEEE ICRA 2025 WBCD Challenge</a> (Table Services Track).</span>
-        </div>
-      </div>
-
-      <h2 class="section-heading">Publications</h2>
-      <p class="publication-note">* equal contribution</p>
-
-      <div id="pub-filters" class="pub-filters">
-        <button type="button" class="pub-filter-btn active" data-filter="selected">Selected</button>
-        <button type="button" class="pub-filter-btn" data-filter="all">All</button>
-      </div>
-
-      <div class="pub-timeline">
-
-        <section class="pub-year" data-year="2026">
-          <div class="pub-year-label">2026</div>
-          <div class="pub-year-list">
-
-            <div class="list-item publication selected" data-category="publication">
-              <a href="https://mrsecant.github.io/OmniVTA/" class="thumbnail">
-                <img src="assets/publications/OmniVTA.png" alt="OmniVTA" width="200" height="130" loading="lazy"
-                  decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://mrsecant.github.io/OmniVTA/">OmniVTA: Visuo-Tactile World Modeling for Contact-Rich
-                    Robotic Manipulation</a></h3>
-                <p>
-                  <a href="https://mrsecant.github.io/">Yuhang Zheng</a>,
-                  <a href="https://scholar.google.com/citations?user=W-msX90AAAAJ&hl=en">Songen Gu</a>,
-                  <b>Weize Li</b>,
-                  <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng</a>,
-                  Yujie Zang,
-                  Shuai Tian,
-                  <a href="https://getterupper.github.io/">Xiang Li</a>,
-                  <a href="https://cehao1.github.io/">Ce Hao</a>,
-                  <a href="https://chengaopro.github.io/">Chen Gao</a>,
-                  Si Liu,
-                  Haoran Li,
-                  <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
-                  <a href="https://yanshuicheng.info/">Shuicheng Yan</a>,
-                  <a href="https://wenchaoding.github.io/">Wenchao Ding</a><br>
-                  <i>Preprint</i>, 2026
-                  <span class="oral"> · EAI Top10 Dataset Award</span><br>
-                  <a class="pub-link"
-                    href="https://mrsecant.github.io/OmniVTA/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                  <a class="pub-link" href="https://arxiv.org/pdf/2603.19201">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                  <a class="pub-link" href="https://huggingface.co/datasets/tars-robotics/OmniVitac">Dataset</a>
-                </p>
-              </div>
-            </div>
-
-
-            <div class="list-item publication" data-category="publication">
-              <a href="https://garlicba.github.io/LiteVGGT/" class="thumbnail">
-                <img src="assets/publications/litevggt_teaser.png" alt="LiteVGGT" width="200" height="130"
-                  loading="lazy" decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://garlicba.github.io/LiteVGGT/">LiteVGGT: Boosting Vanilla VGGT via Geometry-aware
-                    Cached Token Merging</a></h3>
-                <p>
-                  <a href="https://garlicba.github.io/">Zhijian Shu</a>,
-                  <a href="https://clinplayer.github.io/">Cheng Lin</a>,
-                  <a href="https://github.com/xbillowy">Tao Xie</a>,
-                  <a href="https://yvanyin.net/">Wei Yin</a>,
-                  <a href="https://github.com/fanerlight">Ben Li</a>,
-                  <a href="https://openreview.net/profile?id=~Zhiyuan_Pu1">Zhiyuan Pu</a>,
-                  <b>Weize Li</b>,
-                  <a href="https://yoyo000.github.io/">Yao Yao</a>,
-                  <a href="https://openreview.net/profile?id=~Xun_Cao1">Xun Cao</a>,
-                  <a href="https://xy-guo.github.io/">Xiaoyang Guo</a>,
-                  <a href="https://xxlong0.github.io/">Xiao-xiao Long</a><br>
-                  <i>CVPR 2026</i><br>
-                  <a class="pub-link"
-                    href="https://garlicba.github.io/LiteVGGT/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                  <a class="pub-link" href="https://arxiv.org/abs/2512.04939">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                  <a class="pub-link" href="https://github.com/GarlicBa/LiteVGGT-repo">Code</a>
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        <section class="pub-year" data-year="2026">
-          <div class="pub-year-label">2026</div>
-          <div class="pub-year-list">
-
-            <div class="list-item publication selected" data-category="publication">
-              <a href="https://wiyh.tars-ai.com/" class="thumbnail">
-                <img src="assets/publications/wiyh_corl_teaser.png" alt="World in Your Hands" width="200" height="130"
-                  loading="lazy" decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://wiyh.tars-ai.com/">World in Your Hands: A Large-Scale and Open-source Ecosystem for
-                    Learning Human-centric Manipulation in the Wild</a></h3>
-                <p>
-                  <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng</a><span
-                    class="cofirst-star">*</span>,
-                  Jichao Peng<span class="cofirst-star">*</span>,
-                  <b>Weize Li</b><span class="cofirst-star">*</span>,
-                  <a href="https://github.com/xbillowy">Yuhang Zheng</a>,
-                  <a href="https://yvanyin.net/">Xiang Li</a>,
-                  Yujie Jin, Julong Wei, Guanhua Zhang, Ruiling Zheng, Ming Cao,
-                  Songen Gu, Zhenhong Zou, Kaige Li, Ke Wu, Mingmin Yang, Jiahao Liu,
-                  Pengfei Li, Hengjie Si, Feiyu Zhu, Wang Fu, Likun Wang, Ruiwen Yao,
-                  <a href="https://zjru.github.io/">Jieru Zhao</a>,
-                  <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
-                  <a href="https://wenchaoding.github.io/">Wenchao Ding</a><br>
-                  <i>CoRL</i>, 2026<br>
-                  <a class="pub-link" href="https://wiyh.tars-ai.com/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                  <a class="pub-link" href="https://arxiv.org/abs/2512.24310">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                  <a class="pub-link" href="https://github.com/tars-robotics/World-In-Your-Hands">Code</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="list-item publication selected" data-category="publication">
-              <a href="https://arxiv.org/pdf/2607.02503" class="thumbnail">
-                <img src="assets/publications/VTWAM.png" alt="VT-WAM" width="200" height="130"
-                  loading="lazy" decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://arxiv.org/pdf/2607.02503">VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation</a></h3>
-                <p>
-                  Shuai Tian,
-                  <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng</a>,
-                  <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&hl=en">Yuhang Zheng</a>,
-                  <a href="https://scholar.google.com/citations?user=W-msX90AAAAJ&hl=en">Songen Gu</a>,
-                  Yujie Zang,
-                  Yuxing Qin,
-                  <b>Weize Li</b>,
-                  Haoran Li,
-                  <a href="https://wenchaoding.github.io/">Wenchao Ding</a>,
-                  Dongbin Zhao<br>
-                  <i>Preprint</i>, 2026<br>
-                  <a class="pub-link" href="https://arxiv.org/pdf/2607.02503">Paper</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="list-item publication selected" data-category="publication">
-              <a href="https://arxiv.org/abs/2604.21914" class="thumbnail">
-                <img src="assets/publications/vistabot_pipeline.png" alt="VistaBot" width="200" height="130"
-                  loading="lazy" decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://arxiv.org/abs/2604.21914">VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis</a></h3>
-                <p>
-                  <a href="https://scholar.google.com/citations?user=W-msX90AAAAJ&hl=en">Songen Gu</a><span
-                    class="cofirst-star">*</span>,
-                  <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&hl=en">Yuhang Zheng</a><span
-                    class="cofirst-star">*</span>,
-                  <b>Weize Li</b>,
-                  <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng</a>,
-                  Yating Feng,
-                  <a href="https://getterupper.github.io/">Xiang Li</a>,
-                  <a href="https://philipflyg.github.io/">Pengfei Li</a>,
-                  <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
-                  <a href="https://wenchaoding.github.io/">Wenchao Ding</a><br>
-                  <i>ICRA 2026</i><br>
-                  <a class="pub-link" href="https://arxiv.org/abs/2604.21914">Paper</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-              <a class="thumbnail">
-                <img src="assets/publications/pokevla.png" alt="PokéVLA" width="200" height="130" loading="lazy"
-                  decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3>PokéVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge
-                  Guidance</h3>
-                <p>
-                  <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng</a>,
-                  Xiang Li,
-                  <a href="https://scholar.google.com/citations?user=W-msX90AAAAJ&hl=en">Songen Gu</a>,
-                  Yuhang Zheng,
-                  Shuai Tian,
-                  <b>Weize Li</b>,
-                  Linbo Wang,
-                  Senyu Fei,
-                  Pengfei Li,
-                  YinFeng Gao,
-                  Zebin Xing,
-                  Qichao Zhang,
-                  <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
-                  <a href="https://wenchaoding.github.io/">Wenchao Ding</a>,
-                  Haoran Li<br>
-                  <i>In Submission</i>, 2025<br>
-                  Paper (coming soon)
-                </p>
-              </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-              <a href="https://arxiv.org/abs/2511.21887" class="thumbnail">
-                <img src="assets/publications/uniart_pipeline.png" alt="UniArt" width="200" height="130" loading="lazy"
-                  decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://arxiv.org/abs/2511.21887">UniArt: Unified 3D Representation for Generating 3D
-                    Articulated Objects with Open-Set Articulation</a></h3>
-                <p>
-                  <a href="https://scholar.google.com/citations?user=uUd5v2cAAAAJ&hl=en">Bu Jin</a>,
-                  <b>Weize Li</b>,
-                  <a href="https://scholar.google.com/citations?user=W-msX90AAAAJ&hl=en">Songen Gu</a>,
-                  <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng</a>,
-                  <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&hl=en">Yuhang Zheng</a>,
-                  Zhengyi Zhou,
-                  <a href="https://yoyo000.github.io/">Yao Yao</a><br>
-                  <i>In Submission</i>, 2025<br>
-                  <a class="pub-link" href="https://arxiv.org/abs/2511.21887">Paper</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="list-item publication selected" data-category="publication">
-              <a href="https://wbcdcompetition.github.io/2025/index.html" class="thumbnail">
-                <img src="assets/publications/wbcd_final.svg" alt="WBCD" width="200" height="130" loading="lazy"
-                  decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://wbcdcompetition.github.io/2025/index.html">Taming VR Teleoperation and Learning
-                    from Demonstration for Multi-Task Bimanual Table Service Manipulation</a></h3>
-                <p>
-                  <b>Weize Li</b>,
-                  <a href="https://absrat.com/">Zhengxiao Han</a>,
-                  <a href="https://davidlxu.github.io/">Lixin Xu</a>,
-                  <a href="https://changerc77.github.io/">Xiangyu Chen</a>,
-                  <a href="https://harrisonbounds.github.io/">Harrison Bounds</a>,
-                  Chenrui Zhang,
-                  <a href="https://scholar.google.com/citations?user=RYKMFp4AAAAJ&hl=en">Yifan Xu</a><br>
-                  <i>Technical Report</i>, 2025 · IEEE ICRA WBCD 2025 Challenge
-                  <span class="oral"> · 1st Place (Table Service Track)</span><br>
-                  <a class="pub-link"
-                    href="https://wbcdcompetition.github.io/2025/index.html">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                  <a class="pub-link" href="https://arxiv.org/abs/2508.14542">Paper</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="list-item publication selected" data-category="publication">
-              <a href="https://dl.acm.org/doi/abs/10.1145/3746267.3762173" class="thumbnail">
-                <img src="assets/publications/robogem_teaser.svg" alt="RoboGEM" width="200" height="130" loading="lazy"
-                  decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://dl.acm.org/doi/abs/10.1145/3746267.3762173">RoboGEM: Learning Language-guided
-                    Robotic Manipulation via Generalizable and Efficient Feature Distillation</a></h3>
-                <p>
-                  <a href="https://www.linkedin.com/in/chunzheng-wang-06a024366/">Chunzheng Wang</a>,
-                  <a href="https://mrsecant.github.io/">Yuhang Zheng</a>,
-                  <a href="https://changerc77.github.io/">Xiangyu Chen</a>,
-                  <b>Weize Li</b>,
-                  <a href="https://openreview.net/profile?id=%7ESongen_Gu2">Songen Gu</a>,
-                  <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=zh-CN">Yupeng Zheng</a><br>
-                  <i>ACM MM 2025</i>
-                  <span class="oral"> · Best Paper Award @ RoboSoft'25</span><br>
-                  <a class="pub-link" href="https://dl.acm.org/doi/abs/10.1145/3746267.3762173">Paper</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-              <a href="https://arxiv.org/abs/2505.01729" class="thumbnail">
-                <img src="assets/publications/ppmethod_new.png" alt="PosePilot" width="200" height="130" loading="lazy"
-                  decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://arxiv.org/abs/2505.01729">PosePilot: Steering Camera Pose for Generative World
-                    Models with Self-supervised Depth</a></h3>
-                <p>
-                  <a href="https://scholar.google.com/citations?user=uUd5v2cAAAAJ&hl=en">Bu Jin</a><span
-                    class="cofirst-star">*</span>,
-                  <b>Weize Li</b><span class="cofirst-star">*</span>,
-                  Baihan Yang,
-                  Zhenxin Zhu,
-                  Junpeng Jiang,
-                  <a href="https://c7w.tech/about/">Huan-ang Gao</a>,
-                  Haiyang Sun,
-                  Kun Zhan,
-                  Hengtong Hu,
-                  Xueyang Zhang,
-                  <a href="https://scholar.google.com/citations?user=Z_QY_VwAAAAJ">Peng Jia</a>,
-                  <a href="https://sites.google.com/view/fromandto">Hao Zhao</a><br>
-                  <i>IROS 2025</i><br>
-                  <a class="pub-link" href="https://arxiv.org/abs/2505.01729">Paper</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-              <a href="https://github.com/EricLee0224/awesome-nerf-editing" class="thumbnail">
-                <img src="assets/publications/survey_teaser_new2.png" alt="Radiance Field Survey" width="200"
-                  height="130" loading="lazy" decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://github.com/EricLee0224/awesome-nerf-editing">Radiance Field-Based 3D Editing: A
-                    Survey</a></h3>
-                <p>
-                  <b>Weize Li</b><span class="cofirst-star">*</span>,
-                  <a href="https://tianshukuai.github.io/">Tianshu Kuai</a><span class="cofirst-star">*</span>,
-                  <a href="https://c7w.tech/about/">Huan-ang Gao</a>,
-                  <a href="https://xiangyueliu.github.io/">Xiangyue Liu</a>,
-                  <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&hl=en">Yuhang Zheng</a>,
-                  <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng</a>, et al.<br>
-                  <i>In Submission</i>, 2025<br>
-                  <a class="pub-link" href="https://github.com/EricLee0224/awesome-nerf-editing">Awesome List</a>
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        <section class="pub-year" data-year="2024">
-          <div class="pub-year-label">2024</div>
-          <div class="pub-year-list">
-
-            <div class="list-item publication" data-category="publication">
-              <a href="https://jxbbb.github.io/TOD3Cap/" class="thumbnail">
-                <img src="assets/publications/tod3cap.png" alt="TOD3Cap" width="200" height="130" loading="lazy"
-                  decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://jxbbb.github.io/TOD3Cap/">TOD3Cap: Towards 3D Dense Captioning in Outdoor
-                    Scenes</a></h3>
-                <p>
-                  <a href="https://scholar.google.com/citations?user=uUd5v2cAAAAJ&hl=en">Bu Jin</a>,
-                  <a href="https://scholar.google.com/citations?user=anGhGdYAAAAJ&hl=en">Yupeng Zheng</a>,
-                  <a href="https://github.com/Philipflyg">Pengfei Li</a>,
-                  <b>Weize Li</b>,
-                  <a href="https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&hl=en">Yuhang Zheng</a>,
-                  Sujie Hu,
-                  <a href="https://liuxinyv.github.io/">Xinyu Liu</a>,
-                  Jinwei Zhu,
-                  <a href="https://scholar.google.com/citations?user=4PXGeaYAAAAJ">Zhijie Yan</a>,
-                  Haiyang Sun,
-                  Kun Zhan,
-                  <a href="https://scholar.google.com/citations?user=Z_QY_VwAAAAJ">Peng Jia</a>,
-                  <a href="https://www.xxlong.site/">Xiaoxiao Long</a>,
-                  <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen</a>,
-                  <a href="https://sites.google.com/view/fromandto">Hao Zhao</a><br>
-                  <i>ECCV 2024</i><br>
-                  <a class="pub-link" href="https://jxbbb.github.io/TOD3Cap/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                  <a class="pub-link" href="https://arxiv.org/abs/2403.19589">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                  <a class="pub-link" href="https://github.com/jxbbb/TOD3Cap">Code</a>
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        <section class="pub-year" data-year="2023">
-          <div class="pub-year-label">2023</div>
-          <div class="pub-year-list">
-
-            <div class="list-item publication" data-category="publication">
-              <a href="https://github.com/EricLee0224/PAD" class="thumbnail">
-                <img src="assets/publications/pad.png" alt="PAD" width="200" height="130" loading="lazy"
-                  decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://github.com/EricLee0224/PAD">PAD: A Dataset and Benchmark for Pose-agnostic Anomaly
-                    Detection</a></h3>
-                <p>
-                  <a href="https://scholar.google.com/citations?user=CMYTxUEAAAAJ&hl=en">Qiang Zhou</a><span
-                    class="cofirst-star">*</span>,
-                  <b>Weize Li</b><span class="cofirst-star">*</span>,
-                  <a href="https://jianglh-whu.github.io/">Lihan Jiang</a>,
-                  <a href="https://github.com/Cross-ZBuild">Guoliang Wang</a>,
-                  <a href="https://air.tsinghua.edu.cn/en/info/1046/1196.htm">Guyue Zhou</a>,
-                  <a href="https://www.shanghangzhang.com/">Shanghang Zhang</a>,
-                  <a href="https://sites.google.com/view/fromandto">Hao Zhao</a><br>
-                  <i>NeurIPS 2023</i><br>
-                  <a class="pub-link" href="https://arxiv.org/abs/2310.07716">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-                  <a class="pub-link" href="https://github.com/EricLee0224/PAD">Code</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="list-item publication" data-category="publication">
-              <a href="https://link.springer.com/article/10.1007/s00521-023-08571-4" class="thumbnail">
-                <img src="assets/publications/irflmdnn.png" alt="IRFLMDNN" width="200" height="130" loading="lazy"
-                  decoding="async" />
-              </a>
-              <div class="project-description">
-                <h3><a href="https://link.springer.com/article/10.1007/s00521-023-08571-4">IRFLMDNN: Hybrid Model for
-                    PMU Data Anomaly Detection and Re-filling</a></h3>
-                <p>
-                  Miao Yu,
-                  Chenyu Yang<span class="cofirst-star">*</span>,
-                  <b>Weize Li</b><span class="cofirst-star">*</span>,
-                  Weijie Du,
-                  Jinglin Li<br>
-                  <i>Neural Computing and Applications</i>, 2023<br>
-                  <a class="pub-link" href="https://link.springer.com/article/10.1007/s00521-023-08571-4">Paper</a>
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </section>
 
       </div>
 
-      <h2 class="section-heading">Experience</h2>
-      <div class="experience-grid">
+    </main>
 
-        <div class="list-item experience" data-category="experience">
-          <a href="https://wiyh.tars-ai.com/" target="_blank" class="exp-logo">
-            <img src="assets/TARS_BLK_LOGO.png" alt="TARS" loading="lazy" decoding="async" />
-          </a>
-          <div class="exp-description">
-            <h3><a href="https://wiyh.tars-ai.com/" target="_blank">TARS Robotics</a> | AWE Research Team</h3>
-            <p>Research Engineer</p>
-            <p class="exp-pi">
-              Mentors:
-              <a href="https://wenchaoding.github.io/personal/index.html">Prof. Wenchao Ding</a>,
-              <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Prof. Yilun Chen</a>
-            </p>
-            <p>Mar 2025 – June 2026</p>
-          </div>
-        </div>
-
-        <div class="list-item experience" data-category="experience">
-          <a class="exp-logo">
-            <img src="assets/AIRIC_logo.jpg" alt="AIRIC" loading="lazy" decoding="async" />
-          </a>
-          <div class="exp-description">
-            <h3>Tsinghua University | AIR Innovation Center</h3>
-            <p>Research Assistant</p>
-            <p class="exp-pi">
-              Mentor:
-              <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Prof. Yilun Chen</a>
-            </p>
-            <p>Jan 2025 – May 2025</p>
-          </div>
-        </div>
-
-        <div class="list-item experience" data-category="experience">
-          <a class="exp-logo">
-            <img src="assets/HKUST_Logo.png" alt="HKUST" loading="lazy" decoding="async" />
-          </a>
-          <div class="exp-description">
-            <h3>HKUST | LightIllusions</h3>
-            <p>Research Intern</p>
-            <p class="exp-pi">
-              Mentors:
-              <a href="https://www.xxlong.site/">Prof. Xiao-xiao Long</a>,
-              <a href="https://ece.hkust.edu.hk/pingtan">Prof. Ping Tan</a>
-            </p>
-            <p>Apr 2024 – Oct 2024</p>
-          </div>
-        </div>
-
-        <div class="list-item experience" data-category="experience">
-          <a class="exp-logo">
-            <img src="assets/AIR_logo.png" alt="AIR" loading="lazy" decoding="async" />
-          </a>
-          <div class="exp-description">
-            <h3>Tsinghua University | AIR</h3>
-            <p>Research Intern</p>
-            <p class="exp-pi">
-              Mentors:
-              <a href="https://sites.google.com/view/fromandto">Prof. Hao Zhao</a>,
-              <a href="https://pku-hmi-lab.github.io/HMI-Web/leader.html">Prof. Shanghang Zhang</a>,
-              <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Prof. Yilun Chen</a>
-            </p>
-            <p>Aug 2022 – Dec 2024</p>
-          </div>
-        </div>
-
-      </div>
-
-      <h2 class="section-heading">Service</h2>
-      <p class="service-item">Conference Reviewer: NeurIPS'23, CVPR'24, ICRA'24, ICLR'25, IROS'25, CVPR'26</p>
-      <p class="service-item">Journal Reviewer: IJCV, R-AL</p>
-      <p class="service-item">Organizer: 2nd What Bimanuals Can Do (WBCD) Competition, IEEE ICRA 2026</p>
-
-      <h2 class="section-heading">Misc</h2>
-      <p class="service-item">
-        Outside of research, I enjoy photography, fitness, and ball sports (football, basketball, tennis, badminton).
-        I am also a registered referee with the Chinese Football Association.
-      </p>
-
-    </div>
-
-    <div id="footer">
+    <footer id="footer">
       Inspired by <a href="https://jonbarron.info/">Jon</a>'s websites.
-      Updated Jul 2026.
-      <a href="index_legacy_barron.html">Previous version</a>.
-    </div>
+      Updated Oct 2026.
+    </footer>
 
   </div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var toggleNews = document.getElementById('toggle-news');
-      var moreNews = document.getElementById('more-news');
-      if (toggleNews && moreNews) {
-        toggleNews.addEventListener('click', function () {
-          var hidden = moreNews.style.display === 'none';
-          moreNews.style.display = hidden ? 'block' : 'none';
-          toggleNews.textContent = hidden ? 'Show less' : 'Show more';
-        });
-        toggleNews.textContent = 'Show more';
-      }
-
-      var pubFilters = document.getElementById('pub-filters');
-      if (pubFilters) {
-        var pubButtons = pubFilters.querySelectorAll('.pub-filter-btn');
-        var publications = document.querySelectorAll('.list-item.publication');
-        var yearGroups = document.querySelectorAll('.pub-year');
-        var timeline = document.querySelector('.pub-timeline');
-        var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-        function animateEntrance() {
-          if (reduceMotion || !timeline) return;
-          var seq = [];
-          yearGroups.forEach(function (group) {
-            if (group.style.display === 'none') return;
-            var label = group.querySelector('.pub-year-label');
-            if (label && getComputedStyle(label).display !== 'none') seq.push(label);
-            group.querySelectorAll('.list-item.publication').forEach(function (it) {
-              if (it.style.display !== 'none') seq.push(it);
-            });
-          });
-          seq.forEach(function (el) { el.style.animation = 'none'; });
-          void timeline.offsetWidth;
-          seq.forEach(function (el, i) {
-            el.style.animation = 'pubFadeIn 0.3s ease both';
-            el.style.animationDelay = Math.min(i * 0.035, 0.28) + 's';
-          });
-        }
-
-        function applyPubFilter(filter, animate) {
-          if (timeline) timeline.classList.toggle('with-axis', filter === 'all');
-          publications.forEach(function (item) {
-            var show = filter === 'all' || item.classList.contains('selected');
-            item.style.display = show ? '' : 'none';
-          });
-          yearGroups.forEach(function (group) {
-            var items = group.querySelectorAll('.list-item.publication');
-            var anyVisible = Array.prototype.some.call(items, function (it) {
-              return it.style.display !== 'none';
-            });
-            group.style.display = anyVisible ? '' : 'none';
-          });
-          pubButtons.forEach(function (btn) {
-            btn.classList.toggle('active', btn.getAttribute('data-filter') === filter);
-          });
-          if (animate) animateEntrance();
-        }
-        pubButtons.forEach(function (btn) {
-          btn.addEventListener('click', function () {
-            applyPubFilter(btn.getAttribute('data-filter'), true);
-          });
-        });
-        applyPubFilter('selected', false);
-      }
-    });
-  </script>
 
 </body>
 
